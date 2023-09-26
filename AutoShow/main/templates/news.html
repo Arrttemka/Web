@@ -1,0 +1,24 @@
+{% extends "base.html" %} {% block title %}
+
+<title>News Page</title>
+
+{% endblock %} 
+
+{% block content %}
+<section>
+  {% for new in news%}
+  <article>
+    <h2>{{new.title}}</h2>
+    <h4>{{new.essence}}</h4>
+    <img src="{{new.photo.url}}">
+    <details>
+      <summary>
+        Читать больше...
+      </summary>
+      {{new.description}}
+    </details>
+  </article>
+  {%endfor%}
+</section>
+<div style="margin-bottom: 30px;"></div>
+{%endblock%}
