@@ -23772,3 +23772,1887 @@ INFO 2023-09-26 22:17:57,216 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 3
 INFO 2023-09-26 22:17:57,216 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
 INFO 2023-09-26 22:17:57,216 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
 INFO 2023-09-26 22:17:57,216 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-09-28 14:52:56,880 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 14:52:56,880 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 14:53:46,294 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 14:53:46,294 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 21:09:23,999 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 21:09:23,999 autoreload Watching for file changes with StatReloader
+INFO 2023-09-28 21:09:31,718 basehttp "GET / HTTP/1.1" 200 12897
+INFO 2023-09-28 21:09:31,718 basehttp "GET / HTTP/1.1" 200 12897
+INFO 2023-09-28 21:09:31,825 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,825 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,835 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,835 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,837 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,837 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,838 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,839 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,839 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,838 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,840 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,840 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+INFO 2023-09-28 21:09:31,898 basehttp "GET /media/images/git.png HTTP/1.1" 200 7312
+INFO 2023-09-28 21:09:31,898 basehttp "GET /media/images/git.png HTTP/1.1" 200 7312
+INFO 2023-09-28 21:21:57,482 basehttp "GET /stats/report/ HTTP/1.1" 200 65980
+INFO 2023-09-28 21:21:57,482 basehttp "GET /stats/report/ HTTP/1.1" 200 65980
+ERROR 2023-09-28 21:21:57,711 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:21:57,711 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:21:57,712 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+ERROR 2023-09-28 21:21:57,712 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+INFO 2023-09-28 21:22:01,508 basehttp "GET /stats/report/?month=3 HTTP/1.1" 200 60600
+INFO 2023-09-28 21:22:01,508 basehttp "GET /stats/report/?month=3 HTTP/1.1" 200 60600
+ERROR 2023-09-28 21:22:01,632 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:01,632 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:01,633 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-09-28 21:22:01,633 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-09-28 21:22:04,772 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60600
+INFO 2023-09-28 21:22:04,772 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60600
+ERROR 2023-09-28 21:22:04,885 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:04,885 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:04,886 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-09-28 21:22:04,886 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-09-28 21:22:06,962 basehttp "GET /stats/report/?month=2 HTTP/1.1" 200 60600
+INFO 2023-09-28 21:22:06,962 basehttp "GET /stats/report/?month=2 HTTP/1.1" 200 60600
+ERROR 2023-09-28 21:22:07,082 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:07,082 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:07,084 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-09-28 21:22:07,084 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-09-28 21:22:10,535 basehttp "GET /stats/report/?month=8 HTTP/1.1" 200 60600
+INFO 2023-09-28 21:22:10,535 basehttp "GET /stats/report/?month=8 HTTP/1.1" 200 60600
+ERROR 2023-09-28 21:22:10,648 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:10,648 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:10,649 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-09-28 21:22:10,649 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-09-28 21:22:13,086 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60622
+INFO 2023-09-28 21:22:13,086 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60622
+ERROR 2023-09-28 21:22:13,201 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:13,201 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:13,202 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-09-28 21:22:13,202 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-09-28 21:22:17,363 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 56040
+INFO 2023-09-28 21:22:17,363 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 56040
+ERROR 2023-09-28 21:22:17,547 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:17,547 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:17,548 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:17,548 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+INFO 2023-09-28 21:22:22,414 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+INFO 2023-09-28 21:22:22,414 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+ERROR 2023-09-28 21:22:22,544 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:22,544 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:22,546 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:22,546 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+INFO 2023-09-28 21:22:25,582 basehttp "GET /stats/report/?year=2022 HTTP/1.1" 200 63960
+INFO 2023-09-28 21:22:25,582 basehttp "GET /stats/report/?year=2022 HTTP/1.1" 200 63960
+ERROR 2023-09-28 21:22:25,697 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:25,697 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:25,698 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:25,698 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+INFO 2023-09-28 21:22:31,925 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+INFO 2023-09-28 21:22:31,925 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+ERROR 2023-09-28 21:22:32,049 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:32,049 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:32,050 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:32,050 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+INFO 2023-09-28 21:22:37,326 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+INFO 2023-09-28 21:22:37,326 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 86604
+ERROR 2023-09-28 21:22:37,451 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:37,451 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:37,452 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:37,452 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:58,094 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:58,094 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:58,095 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:58,095 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:59,035 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:59,035 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:59,036 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:59,036 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:59,485 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:59,485 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:22:59,487 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-09-28 21:22:59,487 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+INFO 2023-09-28 21:23:12,233 basehttp "GET /admin/ HTTP/1.1" 200 11161
+INFO 2023-09-28 21:23:12,233 basehttp "GET /admin/ HTTP/1.1" 200 11161
+INFO 2023-09-28 21:23:12,269 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,269 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,270 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,270 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,270 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,270 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,273 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,273 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,274 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,274 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,272 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,272 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,282 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,282 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,286 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,286 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,287 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:12,287 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+ERROR 2023-09-28 21:23:12,380 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:23:12,380 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:23:12,382 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-09-28 21:23:12,382 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-09-28 21:23:33,457 basehttp "GET /admin/main/client/ HTTP/1.1" 200 18562
+INFO 2023-09-28 21:23:33,457 basehttp "GET /admin/main/client/ HTTP/1.1" 200 18562
+INFO 2023-09-28 21:23:33,491 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,491 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,496 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,496 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,496 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,496 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,497 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,498 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,501 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,501 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,498 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,504 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,504 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,509 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-28 21:23:33,509 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-28 21:23:33,576 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,576 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,590 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-09-28 21:23:33,590 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+ERROR 2023-09-28 21:23:33,700 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:23:33,700 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-09-28 21:23:33,701 basehttp "GET /favicon.ico HTTP/1.1" 500 62939
+ERROR 2023-09-28 21:23:33,701 basehttp "GET /favicon.ico HTTP/1.1" 500 62939
+INFO 2023-10-08 12:39:39,164 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 12:39:39,164 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 12:40:01,248 basehttp "GET / HTTP/1.1" 200 12934
+INFO 2023-10-08 12:40:01,248 basehttp "GET / HTTP/1.1" 200 12934
+INFO 2023-10-08 12:40:01,573 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,573 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,586 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,587 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,587 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,590 basehttp "GET /media/images/git.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,590 basehttp "GET /media/images/git.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,592 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,592 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,593 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,586 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,593 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,593 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,593 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,745 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 304 0
+INFO 2023-10-08 12:40:01,745 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 304 0
+INFO 2023-10-08 12:43:33,849 basehttp "GET / HTTP/1.1" 200 12885
+INFO 2023-10-08 12:43:33,849 basehttp "GET / HTTP/1.1" 200 12885
+INFO 2023-10-08 12:45:48,914 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 12:45:48,914 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 12:45:53,946 basehttp "GET / HTTP/1.1" 200 12552
+INFO 2023-10-08 12:45:53,946 basehttp "GET / HTTP/1.1" 200 12552
+INFO 2023-10-08 12:46:00,710 basehttp "GET /cars HTTP/1.1" 200 13240
+INFO 2023-10-08 12:46:00,710 basehttp "GET /cars HTTP/1.1" 200 13240
+INFO 2023-10-08 12:46:00,746 basehttp "GET /media/images/sterwa.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,746 basehttp "GET /media/images/sterwa.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,756 basehttp "GET /media/images/camry_uiXwen2.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,756 basehttp "GET /media/images/camry_uiXwen2.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,758 basehttp "GET /media/images/civic_Y8xMwXu.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,758 basehttp "GET /media/images/civic_Y8xMwXu.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,759 basehttp "GET /media/images/mustang_nGz9XiG.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,759 basehttp "GET /media/images/mustang_nGz9XiG.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,760 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,760 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,760 basehttp "GET /media/images/townstar_Dbvp5Ce.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,760 basehttp "GET /media/images/townstar_Dbvp5Ce.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,790 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,790 basehttp "GET /media/images/optima_PL2PaXF.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,790 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,790 basehttp "GET /media/images/optima_PL2PaXF.png HTTP/1.1" 304 0
+INFO 2023-10-08 12:46:00,829 basehttp "GET /media/images/audi_a4.jpg HTTP/1.1" 200 155006
+INFO 2023-10-08 12:46:00,829 basehttp "GET /media/images/audi_a4.jpg HTTP/1.1" 200 155006
+INFO 2023-10-08 12:46:06,509 basehttp "GET /cars/1 HTTP/1.1" 200 11529
+INFO 2023-10-08 12:46:06,509 basehttp "GET /cars/1 HTTP/1.1" 200 11529
+INFO 2023-10-08 12:47:14,017 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 12:47:14,017 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-08 12:47:14,201 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:47:14,201 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:47:14,203 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+ERROR 2023-10-08 12:47:14,203 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+INFO 2023-10-08 12:47:37,762 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-08 12:47:37,762 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-08 12:47:39,103 basehttp "GET / HTTP/1.1" 200 12897
+INFO 2023-10-08 12:47:39,103 basehttp "GET / HTTP/1.1" 200 12897
+INFO 2023-10-08 12:47:57,321 basehttp "GET /admin/ HTTP/1.1" 200 11161
+INFO 2023-10-08 12:47:57,321 basehttp "GET /admin/ HTTP/1.1" 200 11161
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,359 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,358 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,359 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,359 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,359 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,369 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,369 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,374 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,374 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,374 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:47:57,374 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+ERROR 2023-10-08 12:47:57,468 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:47:57,468 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:47:57,470 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 12:47:57,470 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 12:48:00,053 basehttp "GET /admin/main/client/ HTTP/1.1" 200 18562
+INFO 2023-10-08 12:48:00,053 basehttp "GET /admin/main/client/ HTTP/1.1" 200 18562
+INFO 2023-10-08 12:48:00,075 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,075 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,099 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,099 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,101 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,097 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,101 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,105 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,105 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,111 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 12:48:00,111 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 12:48:00,177 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,177 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,195 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:00,195 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+ERROR 2023-10-08 12:48:00,296 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:00,296 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:00,297 basehttp "GET /favicon.ico HTTP/1.1" 500 62939
+ERROR 2023-10-08 12:48:00,297 basehttp "GET /favicon.ico HTTP/1.1" 500 62939
+INFO 2023-10-08 12:48:06,355 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18373
+INFO 2023-10-08 12:48:06,355 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 18373
+INFO 2023-10-08 12:48:06,400 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-08 12:48:06,400 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-08 12:48:06,403 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 12:48:06,403 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 12:48:06,405 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:06,405 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:06,407 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:06,407 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:06,430 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2023-10-08 12:48:06,430 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+ERROR 2023-10-08 12:48:06,525 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:06,525 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:06,526 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+ERROR 2023-10-08 12:48:06,526 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+INFO 2023-10-08 12:48:25,678 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 29828
+INFO 2023-10-08 12:48:25,678 basehttp "POST /admin/auth/user/ HTTP/1.1" 200 29828
+INFO 2023-10-08 12:48:25,715 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-10-08 12:48:25,715 basehttp "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+ERROR 2023-10-08 12:48:25,824 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:25,824 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:25,825 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+ERROR 2023-10-08 12:48:25,825 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+INFO 2023-10-08 12:48:32,455 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2023-10-08 12:48:32,455 basehttp "POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO 2023-10-08 12:48:32,494 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15262
+INFO 2023-10-08 12:48:32,494 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15262
+INFO 2023-10-08 12:48:32,531 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 12:48:32,531 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-08 12:48:32,624 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:32,624 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:48:32,625 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+ERROR 2023-10-08 12:48:32,625 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+INFO 2023-10-08 12:51:24,474 basehttp "GET / HTTP/1.1" 200 12929
+INFO 2023-10-08 12:51:24,474 basehttp "GET / HTTP/1.1" 200 12929
+INFO 2023-10-08 12:51:37,989 basehttp "GET /stats/report/ HTTP/1.1" 200 65980
+INFO 2023-10-08 12:51:37,989 basehttp "GET /stats/report/ HTTP/1.1" 200 65980
+ERROR 2023-10-08 12:51:38,113 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:38,113 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:38,114 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+ERROR 2023-10-08 12:51:38,114 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+INFO 2023-10-08 12:51:44,718 basehttp "GET /stats/report/?month=2 HTTP/1.1" 200 60600
+INFO 2023-10-08 12:51:44,718 basehttp "GET /stats/report/?month=2 HTTP/1.1" 200 60600
+ERROR 2023-10-08 12:51:44,838 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:44,838 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:44,839 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:51:44,839 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-10-08 12:51:48,644 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60600
+INFO 2023-10-08 12:51:48,644 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60600
+ERROR 2023-10-08 12:51:48,754 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:48,754 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:48,756 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:51:48,756 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-10-08 12:51:53,499 basehttp "GET /stats/report/?month=10 HTTP/1.1" 200 60600
+INFO 2023-10-08 12:51:53,499 basehttp "GET /stats/report/?month=10 HTTP/1.1" 200 60600
+ERROR 2023-10-08 12:51:53,636 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:53,636 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:53,638 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:51:53,638 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+INFO 2023-10-08 12:51:54,429 basehttp "GET /stats/report/?month=10 HTTP/1.1" 200 60600
+INFO 2023-10-08 12:51:54,429 basehttp "GET /stats/report/?month=10 HTTP/1.1" 200 60600
+ERROR 2023-10-08 12:51:54,542 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:54,542 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:54,543 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:51:54,543 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+INFO 2023-10-08 12:51:57,081 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60622
+INFO 2023-10-08 12:51:57,081 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60622
+ERROR 2023-10-08 12:51:57,200 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:57,200 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:51:57,202 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:51:57,202 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-10-08 12:52:01,085 basehttp "GET /stats/report/?month=8 HTTP/1.1" 200 60600
+INFO 2023-10-08 12:52:01,085 basehttp "GET /stats/report/?month=8 HTTP/1.1" 200 60600
+ERROR 2023-10-08 12:52:01,217 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:52:01,217 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:52:01,218 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:52:01,218 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+INFO 2023-10-08 12:54:07,019 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 78684
+INFO 2023-10-08 12:54:07,019 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 78684
+ERROR 2023-10-08 12:54:07,164 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:07,164 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:07,165 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-10-08 12:54:07,165 basehttp "GET /favicon.ico HTTP/1.1" 500 62944
+ERROR 2023-10-08 12:54:10,016 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:10,016 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:10,017 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:54:10,017 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:54:11,697 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:11,697 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:11,698 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:54:11,698 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:54:12,623 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:12,623 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:12,625 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:54:12,625 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:54:13,133 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:13,133 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:13,134 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:54:13,134 basehttp "GET /favicon.ico HTTP/1.1" 500 62943
+ERROR 2023-10-08 12:54:59,788 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:59,788 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:54:59,790 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:54:59,790 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:55:00,451 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:55:00,451 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:55:00,453 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:55:00,453 basehttp "GET /favicon.ico HTTP/1.1" 500 62942
+ERROR 2023-10-08 12:55:01,105 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:55:01,105 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 12:55:01,107 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+ERROR 2023-10-08 12:55:01,107 basehttp "GET /favicon.ico HTTP/1.1" 500 62934
+WARNING 2023-10-08 13:29:03,292 log The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.: /cars/1
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 86, in save
+    obj.save(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 95, in save
+    raise UpdateError
+django.contrib.sessions.backends.base.UpdateError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 61, in process_response
+    raise SessionInterrupted(
+django.contrib.sessions.exceptions.SessionInterrupted: The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.
+WARNING 2023-10-08 13:29:03,292 log The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.: /cars/1
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 86, in save
+    obj.save(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 95, in save
+    raise UpdateError
+django.contrib.sessions.backends.base.UpdateError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 61, in process_response
+    raise SessionInterrupted(
+django.contrib.sessions.exceptions.SessionInterrupted: The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.
+WARNING 2023-10-08 13:29:03,296 basehttp "GET /cars/1 HTTP/1.1" 400 167197
+WARNING 2023-10-08 13:29:03,296 basehttp "GET /cars/1 HTTP/1.1" 400 167197
+ERROR 2023-10-08 13:29:03,530 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:29:03,530 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:29:03,531 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:29:03,531 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+WARNING 2023-10-08 13:29:12,417 log The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.: /cars/1
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 86, in save
+    obj.save(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 95, in save
+    raise UpdateError
+django.contrib.sessions.backends.base.UpdateError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 61, in process_response
+    raise SessionInterrupted(
+django.contrib.sessions.exceptions.SessionInterrupted: The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.
+WARNING 2023-10-08 13:29:12,417 log The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.: /cars/1
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 86, in save
+    obj.save(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 990, in _save_table
+    updated = self._do_update(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\base.py", line 1054, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1231, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1984, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 59, in process_response
+    request.session.save()
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\backends\db.py", line 95, in save
+    raise UpdateError
+django.contrib.sessions.backends.base.UpdateError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\sessions\middleware.py", line 61, in process_response
+    raise SessionInterrupted(
+django.contrib.sessions.exceptions.SessionInterrupted: The request's session was deleted before the request completed. The user may have logged out in a concurrent request, for example.
+WARNING 2023-10-08 13:29:12,420 basehttp "GET /cars/1 HTTP/1.1" 400 167194
+WARNING 2023-10-08 13:29:12,420 basehttp "GET /cars/1 HTTP/1.1" 400 167194
+ERROR 2023-10-08 13:29:12,567 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:29:12,567 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:29:12,567 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:29:12,567 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 13:36:13,955 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 13:36:13,955 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 13:36:18,402 basehttp "GET / HTTP/1.1" 200 12933
+INFO 2023-10-08 13:36:18,402 basehttp "GET / HTTP/1.1" 200 12933
+INFO 2023-10-08 13:36:30,234 basehttp "GET /cars HTTP/1.1" 200 13515
+INFO 2023-10-08 13:36:30,234 basehttp "GET /cars HTTP/1.1" 200 13515
+INFO 2023-10-08 13:36:30,359 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 200 341641
+INFO 2023-10-08 13:36:30,359 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 200 341641
+INFO 2023-10-08 13:36:34,670 basehttp "GET /cars/12 HTTP/1.1" 200 12695
+INFO 2023-10-08 13:36:34,670 basehttp "GET /cars/12 HTTP/1.1" 200 12695
+INFO 2023-10-08 13:36:42,095 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:36:42,095 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:36:43,399 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:36:43,399 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:36:44,561 basehttp "GET /register/ HTTP/1.1" 200 2057
+INFO 2023-10-08 13:36:44,561 basehttp "GET /register/ HTTP/1.1" 200 2057
+ERROR 2023-10-08 13:36:44,657 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:36:44,657 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:36:44,658 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:36:44,658 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:41:39,722 basehttp "POST /register/ HTTP/1.1" 200 2608
+INFO 2023-10-08 13:41:39,722 basehttp "POST /register/ HTTP/1.1" 200 2608
+ERROR 2023-10-08 13:41:39,879 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:41:39,879 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:41:39,880 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:41:39,880 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:51:19,256 basehttp "POST /register/ HTTP/1.1" 200 2610
+INFO 2023-10-08 13:51:19,256 basehttp "POST /register/ HTTP/1.1" 200 2610
+ERROR 2023-10-08 13:51:19,345 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:51:19,345 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:51:19,346 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:51:19,346 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:51:37,651 basehttp "POST /register/ HTTP/1.1" 200 2602
+INFO 2023-10-08 13:51:37,651 basehttp "POST /register/ HTTP/1.1" 200 2602
+ERROR 2023-10-08 13:51:37,737 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:51:37,737 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:51:37,738 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:51:37,738 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:52:07,551 basehttp "POST /register/ HTTP/1.1" 200 2612
+INFO 2023-10-08 13:52:07,551 basehttp "POST /register/ HTTP/1.1" 200 2612
+ERROR 2023-10-08 13:52:07,639 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:07,639 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:07,640 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:52:07,640 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:52:23,489 basehttp "POST /register/ HTTP/1.1" 200 2612
+INFO 2023-10-08 13:52:23,489 basehttp "POST /register/ HTTP/1.1" 200 2612
+ERROR 2023-10-08 13:52:23,574 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:23,574 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:23,575 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:52:23,575 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:52:46,304 basehttp "POST /register/ HTTP/1.1" 200 2525
+INFO 2023-10-08 13:52:46,304 basehttp "POST /register/ HTTP/1.1" 200 2525
+ERROR 2023-10-08 13:52:46,402 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:46,402 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:52:46,403 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:52:46,403 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:53:22,702 basehttp "POST /register/ HTTP/1.1" 200 2246
+INFO 2023-10-08 13:53:22,702 basehttp "POST /register/ HTTP/1.1" 200 2246
+ERROR 2023-10-08 13:53:22,786 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:22,786 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:22,788 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:22,788 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:53:41,283 basehttp "POST /register/ HTTP/1.1" 200 2246
+INFO 2023-10-08 13:53:41,283 basehttp "POST /register/ HTTP/1.1" 200 2246
+ERROR 2023-10-08 13:53:41,374 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:41,374 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:41,375 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:41,375 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:42,557 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:42,557 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:42,558 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:42,558 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:43,436 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:43,436 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:43,437 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:43,437 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,120 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,120 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,121 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,121 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,428 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,428 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,429 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,429 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,694 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,694 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,695 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,695 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,800 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,800 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:44,801 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:44,801 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:45,091 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:45,091 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:45,094 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:45,094 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:53:45,115 basehttp "GET /register/ HTTP/1.1" 200 2057
+INFO 2023-10-08 13:53:45,115 basehttp "GET /register/ HTTP/1.1" 200 2057
+ERROR 2023-10-08 13:53:45,190 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:45,190 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:45,191 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+ERROR 2023-10-08 13:53:45,191 basehttp "GET /favicon.ico HTTP/1.1" 500 62938
+INFO 2023-10-08 13:53:45,481 basehttp "GET /cars HTTP/1.1" 200 13389
+INFO 2023-10-08 13:53:45,481 basehttp "GET /cars HTTP/1.1" 200 13389
+INFO 2023-10-08 13:53:46,763 basehttp - Broken pipe from ('127.0.0.1', 52325)
+INFO 2023-10-08 13:53:46,763 basehttp - Broken pipe from ('127.0.0.1', 52325)
+INFO 2023-10-08 13:53:47,111 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:53:47,111 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:53:48,803 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 13:53:48,803 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-08 13:53:48,889 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:48,889 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:53:48,891 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+ERROR 2023-10-08 13:53:48,891 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+INFO 2023-10-08 13:54:02,332 basehttp "POST /login/ HTTP/1.1" 200 1291
+INFO 2023-10-08 13:54:02,332 basehttp "POST /login/ HTTP/1.1" 200 1291
+ERROR 2023-10-08 13:54:02,441 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:02,441 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:02,442 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+ERROR 2023-10-08 13:54:02,442 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+INFO 2023-10-08 13:54:14,863 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:14,863 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:14,904 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4264
+INFO 2023-10-08 13:54:14,904 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4264
+INFO 2023-10-08 13:54:14,947 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-10-08 13:54:14,947 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 958
+ERROR 2023-10-08 13:54:15,070 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:15,070 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:15,071 basehttp "GET /favicon.ico HTTP/1.1" 500 62954
+ERROR 2023-10-08 13:54:15,071 basehttp "GET /favicon.ico HTTP/1.1" 500 62954
+INFO 2023-10-08 13:54:16,833 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:16,833 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:16,880 basehttp "GET /admin/ HTTP/1.1" 200 13271
+INFO 2023-10-08 13:54:16,880 basehttp "GET /admin/ HTTP/1.1" 200 13271
+INFO 2023-10-08 13:54:16,925 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-10-08 13:54:16,925 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+ERROR 2023-10-08 13:54:16,997 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:16,997 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:16,998 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:54:16,998 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 13:54:19,152 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15099
+INFO 2023-10-08 13:54:19,152 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15099
+INFO 2023-10-08 13:54:19,196 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:54:19,196 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-08 13:54:19,293 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:19,293 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:19,294 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+ERROR 2023-10-08 13:54:19,294 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+INFO 2023-10-08 13:54:25,114 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 14771
+INFO 2023-10-08 13:54:25,114 basehttp "GET /admin/auth/user/add/ HTTP/1.1" 200 14771
+INFO 2023-10-08 13:54:25,150 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-08 13:54:25,150 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-10-08 13:54:25,157 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-08 13:54:25,157 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-10-08 13:54:25,160 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:54:25,160 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:54:25,160 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-08 13:54:25,160 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-10-08 13:54:25,171 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-10-08 13:54:25,171 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+ERROR 2023-10-08 13:54:25,255 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:25,255 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:25,256 basehttp "GET /favicon.ico HTTP/1.1" 500 62941
+ERROR 2023-10-08 13:54:25,256 basehttp "GET /favicon.ico HTTP/1.1" 500 62941
+INFO 2023-10-08 13:54:49,926 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:49,926 basehttp "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:54:50,016 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28851
+INFO 2023-10-08 13:54:50,016 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28851
+INFO 2023-10-08 13:54:50,061 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-10-08 13:54:50,061 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-10-08 13:54:50,062 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-10-08 13:54:50,062 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-10-08 13:54:50,062 basehttp "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-10-08 13:54:50,062 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-10-08 13:54:50,068 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-10-08 13:54:50,068 basehttp "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-10-08 13:54:50,070 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:54:50,070 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-10-08 13:54:50,158 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-10-08 13:54:50,157 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-10-08 13:54:50,158 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-10-08 13:54:50,158 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-10-08 13:54:50,158 basehttp "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+ERROR 2023-10-08 13:54:50,191 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:50,191 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:54:50,192 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+ERROR 2023-10-08 13:54:50,192 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+INFO 2023-10-08 13:55:17,612 basehttp "POST /admin/auth/user/18/change/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:55:17,612 basehttp "POST /admin/auth/user/18/change/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:55:17,660 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15743
+INFO 2023-10-08 13:55:17,660 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15743
+INFO 2023-10-08 13:55:17,702 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:55:17,702 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-08 13:55:17,794 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:17,794 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:17,796 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+ERROR 2023-10-08 13:55:17,796 basehttp "GET /favicon.ico HTTP/1.1" 500 62937
+WARNING 2023-10-08 13:55:29,408 log Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-10-08 13:55:29,408 log Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-10-08 13:55:29,409 basehttp "POST /login/ HTTP/1.1" 403 2560
+WARNING 2023-10-08 13:55:29,409 basehttp "POST /login/ HTTP/1.1" 403 2560
+ERROR 2023-10-08 13:55:29,529 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:29,529 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:29,530 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:55:29,530 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+WARNING 2023-10-08 13:55:32,706 log Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-10-08 13:55:32,706 log Forbidden (CSRF token from POST incorrect.): /login/
+WARNING 2023-10-08 13:55:32,707 basehttp "POST /login/ HTTP/1.1" 403 2560
+WARNING 2023-10-08 13:55:32,707 basehttp "POST /login/ HTTP/1.1" 403 2560
+ERROR 2023-10-08 13:55:32,797 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:32,797 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:32,799 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:55:32,799 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 13:55:37,258 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 13:55:37,258 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-08 13:55:37,383 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:37,383 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:37,384 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:55:37,384 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 13:55:46,773 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+INFO 2023-10-08 13:55:46,773 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+INFO 2023-10-08 13:55:46,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-08 13:55:46,817 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+ERROR 2023-10-08 13:55:46,933 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:46,933 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:46,934 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+ERROR 2023-10-08 13:55:46,934 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+INFO 2023-10-08 13:55:59,137 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+INFO 2023-10-08 13:55:59,137 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+ERROR 2023-10-08 13:55:59,262 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:59,262 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:55:59,263 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+ERROR 2023-10-08 13:55:59,263 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+INFO 2023-10-08 13:56:02,055 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+INFO 2023-10-08 13:56:02,055 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+ERROR 2023-10-08 13:56:02,183 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:02,183 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:02,184 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+ERROR 2023-10-08 13:56:02,184 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+INFO 2023-10-08 13:56:03,383 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+INFO 2023-10-08 13:56:03,383 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+ERROR 2023-10-08 13:56:03,507 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:03,507 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:03,508 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+ERROR 2023-10-08 13:56:03,508 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+INFO 2023-10-08 13:56:09,392 basehttp "POST /admin/auth/user/18/password/ HTTP/1.1" 200 12002
+INFO 2023-10-08 13:56:09,392 basehttp "POST /admin/auth/user/18/password/ HTTP/1.1" 200 12002
+ERROR 2023-10-08 13:56:09,510 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:09,510 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:09,511 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+ERROR 2023-10-08 13:56:09,511 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+INFO 2023-10-08 13:56:16,920 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+INFO 2023-10-08 13:56:16,920 basehttp "GET /admin/auth/user/18/password/ HTTP/1.1" 200 11572
+ERROR 2023-10-08 13:56:17,032 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:17,032 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:17,033 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+ERROR 2023-10-08 13:56:17,033 basehttp "GET /favicon.ico HTTP/1.1" 500 62949
+INFO 2023-10-08 13:56:21,622 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+INFO 2023-10-08 13:56:21,622 basehttp "GET /admin/auth/user/18/change/ HTTP/1.1" 200 28608
+ERROR 2023-10-08 13:56:21,756 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:21,756 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:21,758 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+ERROR 2023-10-08 13:56:21,758 basehttp "GET /favicon.ico HTTP/1.1" 500 62947
+INFO 2023-10-08 13:56:28,103 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 13:56:28,103 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-08 13:56:28,192 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:28,192 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:28,194 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+ERROR 2023-10-08 13:56:28,194 basehttp "GET /favicon.ico HTTP/1.1" 500 62927
+INFO 2023-10-08 13:56:33,451 basehttp "GET / HTTP/1.1" 200 12933
+INFO 2023-10-08 13:56:33,451 basehttp "GET / HTTP/1.1" 200 12933
+INFO 2023-10-08 13:56:35,443 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:35,443 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:35,979 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:56:35,979 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 13:56:36,964 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 13:56:36,964 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-08 13:56:37,048 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:37,048 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-08 13:56:37,049 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+ERROR 2023-10-08 13:56:37,049 basehttp "GET /favicon.ico HTTP/1.1" 500 62935
+INFO 2023-10-08 13:56:47,234 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:47,234 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:48,546 basehttp "GET / HTTP/1.1" 200 12811
+INFO 2023-10-08 13:56:48,546 basehttp "GET / HTTP/1.1" 200 12811
+INFO 2023-10-08 13:56:53,324 basehttp "GET /cars HTTP/1.1" 200 13435
+INFO 2023-10-08 13:56:53,324 basehttp "GET /cars HTTP/1.1" 200 13435
+INFO 2023-10-08 13:56:53,366 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 13:56:53,366 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 304 0
+INFO 2023-10-08 13:56:56,453 basehttp "GET /cars/1 HTTP/1.1" 200 11647
+INFO 2023-10-08 13:56:56,453 basehttp "GET /cars/1 HTTP/1.1" 200 11647
+INFO 2023-10-08 13:56:59,954 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:59,954 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-08 13:56:59,983 basehttp "GET /cart/ HTTP/1.1" 200 11927
+INFO 2023-10-08 13:56:59,983 basehttp "GET /cart/ HTTP/1.1" 200 11927
+INFO 2023-10-08 13:57:05,147 basehttp "GET /order/create/ HTTP/1.1" 200 10927
+INFO 2023-10-08 13:57:05,147 basehttp "GET /order/create/ HTTP/1.1" 200 10927
+WARNING 2023-10-08 13:57:05,243 log Not Found: /order/media/images/лого.ico
+WARNING 2023-10-08 13:57:05,243 log Not Found: /order/media/images/лого.ico
+WARNING 2023-10-08 13:57:05,244 basehttp "GET /order/media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 404 6010
+WARNING 2023-10-08 13:57:05,244 basehttp "GET /order/media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 404 6010
+INFO 2023-10-08 13:57:06,734 basehttp "POST /order/create/ HTTP/1.1" 200 10453
+INFO 2023-10-08 13:57:06,734 basehttp "POST /order/create/ HTTP/1.1" 200 10453
+INFO 2023-10-08 13:57:25,652 basehttp "GET /FAQ/ HTTP/1.1" 200 14389
+INFO 2023-10-08 13:57:25,652 basehttp "GET /FAQ/ HTTP/1.1" 200 14389
+INFO 2023-10-08 14:18:50,623 basehttp "GET / HTTP/1.1" 200 12834
+INFO 2023-10-08 14:18:50,623 basehttp "GET / HTTP/1.1" 200 12834
+INFO 2023-10-08 14:18:52,263 basehttp "GET / HTTP/1.1" 200 12853
+INFO 2023-10-08 14:18:52,263 basehttp "GET / HTTP/1.1" 200 12853
+INFO 2023-10-08 14:21:21,325 basehttp "GET /about/ HTTP/1.1" 200 18331
+INFO 2023-10-08 14:21:21,325 basehttp "GET /about/ HTTP/1.1" 200 18331
+INFO 2023-10-08 14:21:21,358 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.png HTTP/1.1" 304 0
+INFO 2023-10-08 14:21:21,358 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.png HTTP/1.1" 304 0
+INFO 2023-10-08 14:27:39,125 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 14:27:39,125 autoreload Watching for file changes with StatReloader
+INFO 2023-10-08 14:28:26,634 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 14:28:26,634 basehttp "GET / HTTP/1.1" 200 12591
+INFO 2023-10-08 14:28:26,683 basehttp "GET /cars HTTP/1.1" 200 13389
+INFO 2023-10-08 14:28:26,683 basehttp "GET /cars HTTP/1.1" 200 13389
+INFO 2023-10-08 14:28:26,728 basehttp "GET /cars/1 HTTP/1.1" 200 10998
+INFO 2023-10-08 14:28:26,728 basehttp "GET /cars/1 HTTP/1.1" 200 10998
+INFO 2023-10-08 14:28:26,764 basehttp "GET /cars/2 HTTP/1.1" 200 11184
+INFO 2023-10-08 14:28:26,764 basehttp "GET /cars/2 HTTP/1.1" 200 11184
+INFO 2023-10-08 14:28:26,797 basehttp "GET /cars/3 HTTP/1.1" 200 12344
+INFO 2023-10-08 14:28:26,797 basehttp "GET /cars/3 HTTP/1.1" 200 12344
+INFO 2023-10-08 14:28:26,838 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 14:28:26,838 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-08 14:28:26,880 basehttp "GET /register/ HTTP/1.1" 200 2057
+INFO 2023-10-08 14:28:26,880 basehttp "GET /register/ HTTP/1.1" 200 2057
