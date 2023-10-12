@@ -25880,3 +25880,1453 @@ INFO 2023-10-08 23:30:24,344 basehttp "GET /cars/17 HTTP/1.1" 200 12168
 INFO 2023-10-08 23:30:24,344 basehttp "GET /cars/17 HTTP/1.1" 200 12168
 INFO 2023-10-08 23:30:24,382 basehttp "GET /media/images/cobalt.jpg HTTP/1.1" 304 0
 INFO 2023-10-08 23:30:24,382 basehttp "GET /media/images/cobalt.jpg HTTP/1.1" 304 0
+INFO 2023-10-11 13:23:36,549 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:23:36,549 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:27:59,993 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-11 13:27:59,993 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-11 13:28:01,222 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:28:01,222 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:29:37,633 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-11 13:29:37,633 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-11 13:29:38,735 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:29:38,735 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:43:01,325 autoreload Watching for file changes with StatReloader
+INFO 2023-10-11 13:43:01,325 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:38:16,169 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:38:16,169 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:38:40,943 basehttp "GET / HTTP/1.1" 200 12867
+INFO 2023-10-12 20:38:40,943 basehttp "GET / HTTP/1.1" 200 12867
+INFO 2023-10-12 20:38:41,468 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 200 305241
+INFO 2023-10-12 20:38:41,468 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 200 305241
+INFO 2023-10-12 20:38:41,488 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 200 403926
+INFO 2023-10-12 20:38:41,488 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 200 403926
+INFO 2023-10-12 20:38:41,490 basehttp "GET /media/images/merc.png HTTP/1.1" 200 29911
+INFO 2023-10-12 20:38:41,490 basehttp "GET /media/images/merc.png HTTP/1.1" 200 29911
+INFO 2023-10-12 20:38:41,501 basehttp "GET /media/images/git.png HTTP/1.1" 200 7312
+INFO 2023-10-12 20:38:41,501 basehttp "GET /media/images/git.png HTTP/1.1" 200 7312
+INFO 2023-10-12 20:38:41,525 basehttp "GET /media/images/audi.png HTTP/1.1" 200 10050
+INFO 2023-10-12 20:38:41,525 basehttp "GET /media/images/audi.png HTTP/1.1" 200 10050
+INFO 2023-10-12 20:38:41,526 basehttp "GET /media/images/bmw.png HTTP/1.1" 200 42683
+INFO 2023-10-12 20:38:41,526 basehttp "GET /media/images/bmw.png HTTP/1.1" 200 42683
+INFO 2023-10-12 20:38:41,529 basehttp "GET /media/images/tesla.png HTTP/1.1" 200 12218
+INFO 2023-10-12 20:38:41,529 basehttp "GET /media/images/tesla.png HTTP/1.1" 200 12218
+WARNING 2023-10-12 20:38:41,653 log Not Found: /media/images/logo.ico
+WARNING 2023-10-12 20:38:41,653 log Not Found: /media/images/logo.ico
+WARNING 2023-10-12 20:38:41,654 basehttp "GET /media/images/logo.ico HTTP/1.1" 404 6119
+WARNING 2023-10-12 20:38:41,654 basehttp "GET /media/images/logo.ico HTTP/1.1" 404 6119
+INFO 2023-10-12 20:38:48,533 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:38:48,533 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:38:49,096 basehttp "GET / HTTP/1.1" 200 12609
+INFO 2023-10-12 20:38:49,096 basehttp "GET / HTTP/1.1" 200 12609
+INFO 2023-10-12 20:38:51,699 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-12 20:38:51,699 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-12 20:38:51,805 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:38:51,805 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:38:51,806 basehttp "GET /favicon.ico HTTP/1.1" 500 62975
+ERROR 2023-10-12 20:38:51,806 basehttp "GET /favicon.ico HTTP/1.1" 500 62975
+INFO 2023-10-12 20:38:53,507 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:38:53,507 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:38:54,837 basehttp "GET / HTTP/1.1" 200 13004
+INFO 2023-10-12 20:38:54,837 basehttp "GET / HTTP/1.1" 200 13004
+INFO 2023-10-12 20:38:57,923 basehttp "GET /stats/report/ HTTP/1.1" 200 66664
+INFO 2023-10-12 20:38:57,923 basehttp "GET /stats/report/ HTTP/1.1" 200 66664
+ERROR 2023-10-12 20:38:58,180 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:38:58,180 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:38:58,181 basehttp "GET /favicon.ico HTTP/1.1" 500 62974
+ERROR 2023-10-12 20:38:58,181 basehttp "GET /favicon.ico HTTP/1.1" 500 62974
+INFO 2023-10-12 20:39:00,387 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60903
+INFO 2023-10-12 20:39:00,387 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60903
+ERROR 2023-10-12 20:39:00,503 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:00,503 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:00,504 basehttp "GET /favicon.ico HTTP/1.1" 500 62982
+ERROR 2023-10-12 20:39:00,504 basehttp "GET /favicon.ico HTTP/1.1" 500 62982
+INFO 2023-10-12 20:39:07,240 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60923
+INFO 2023-10-12 20:39:07,240 basehttp "GET /stats/report/?month=9 HTTP/1.1" 200 60923
+ERROR 2023-10-12 20:39:07,353 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:07,353 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:07,355 basehttp "GET /favicon.ico HTTP/1.1" 500 62982
+ERROR 2023-10-12 20:39:07,355 basehttp "GET /favicon.ico HTTP/1.1" 500 62982
+ERROR 2023-10-12 20:39:19,545 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 152, in report
+    plt.plot(salesD, prices)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 3578, in plot
+    return gca().plot(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_axes.py", line 1721, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 303, in __call__
+    yield from self._plot_args(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 499, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (12,) and (13,)
+ERROR 2023-10-12 20:39:19,545 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 152, in report
+    plt.plot(salesD, prices)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 3578, in plot
+    return gca().plot(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_axes.py", line 1721, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 303, in __call__
+    yield from self._plot_args(
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 499, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (12,) and (13,)
+ERROR 2023-10-12 20:39:19,550 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 500 112334
+ERROR 2023-10-12 20:39:19,550 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 500 112334
+ERROR 2023-10-12 20:39:19,717 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:19,717 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\artee\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:39:19,719 basehttp "GET /favicon.ico HTTP/1.1" 500 62984
+ERROR 2023-10-12 20:39:19,719 basehttp "GET /favicon.ico HTTP/1.1" 500 62984
+INFO 2023-10-12 20:43:53,256 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:43:53,256 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:44:16,530 basehttp "GET / HTTP/1.1" 200 12609
+INFO 2023-10-12 20:44:16,530 basehttp "GET / HTTP/1.1" 200 12609
+INFO 2023-10-12 20:44:16,809 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,809 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,809 basehttp "GET /media/images/equinox_niv0u9z.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,813 basehttp "GET /media/images/git.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,813 basehttp "GET /media/images/git.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/bmw.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,809 basehttp "GET /media/images/tuscon_FOGRkvh.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/tesla.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,815 basehttp "GET /media/images/audi.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,841 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:44:16,841 basehttp "GET /media/images/merc.png HTTP/1.1" 304 0
+WARNING 2023-10-12 20:44:17,351 log Not Found: /media/images/logo.ico
+WARNING 2023-10-12 20:44:17,351 log Not Found: /media/images/logo.ico
+WARNING 2023-10-12 20:44:17,351 basehttp "GET /media/images/logo.ico HTTP/1.1" 404 6119
+WARNING 2023-10-12 20:44:17,351 basehttp "GET /media/images/logo.ico HTTP/1.1" 404 6119
+INFO 2023-10-12 20:44:21,690 basehttp "GET /login/ HTTP/1.1" 200 1039
+INFO 2023-10-12 20:44:21,690 basehttp "GET /login/ HTTP/1.1" 200 1039
+ERROR 2023-10-12 20:44:21,865 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:21,865 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:21,873 basehttp "GET /favicon.ico HTTP/1.1" 500 67225
+ERROR 2023-10-12 20:44:21,873 basehttp "GET /favicon.ico HTTP/1.1" 500 67225
+INFO 2023-10-12 20:44:24,567 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:44:24,567 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:44:26,156 basehttp "GET / HTTP/1.1" 200 12992
+INFO 2023-10-12 20:44:26,156 basehttp "GET / HTTP/1.1" 200 12992
+INFO 2023-10-12 20:44:31,514 basehttp "GET /stats/report/ HTTP/1.1" 200 66664
+INFO 2023-10-12 20:44:31,514 basehttp "GET /stats/report/ HTTP/1.1" 200 66664
+ERROR 2023-10-12 20:44:31,678 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:31,678 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:31,678 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 20:44:31,678 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 20:44:34,667 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60903
+INFO 2023-10-12 20:44:34,667 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60903
+ERROR 2023-10-12 20:44:34,839 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:34,839 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:34,839 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 20:44:34,839 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 20:44:37,572 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 152, in report
+    plt.plot(salesD, prices)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 3578, in plot
+    return gca().plot(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_axes.py", line 1721, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 303, in __call__
+    yield from self._plot_args(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 499, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (12,) and (13,)
+ERROR 2023-10-12 20:44:37,572 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 152, in report
+    plt.plot(salesD, prices)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 3578, in plot
+    return gca().plot(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_axes.py", line 1721, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 303, in __call__
+    yield from self._plot_args(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\axes\_base.py", line 499, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (12,) and (13,)
+ERROR 2023-10-12 20:44:37,576 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 500 116624
+ERROR 2023-10-12 20:44:37,576 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 500 116624
+ERROR 2023-10-12 20:44:37,805 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:37,805 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:44:37,805 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:44:37,805 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+INFO 2023-10-12 20:45:04,874 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 20:45:04,874 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 20:45:36,096 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:45:36,096 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:45:41,871 basehttp "GET / HTTP/1.1" 200 12964
+INFO 2023-10-12 20:45:41,871 basehttp "GET / HTTP/1.1" 200 12964
+INFO 2023-10-12 20:45:46,605 basehttp "GET /stats/report/ HTTP/1.1" 200 63924
+INFO 2023-10-12 20:45:46,605 basehttp "GET /stats/report/ HTTP/1.1" 200 63924
+ERROR 2023-10-12 20:45:46,811 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:46,811 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:46,811 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 20:45:46,811 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 20:45:49,496 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 55535
+INFO 2023-10-12 20:45:49,496 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 55535
+ERROR 2023-10-12 20:45:49,668 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:49,668 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:49,668 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:45:49,668 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+INFO 2023-10-12 20:45:54,495 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 62296
+INFO 2023-10-12 20:45:54,495 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 62296
+ERROR 2023-10-12 20:45:54,653 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:54,653 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:54,655 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:45:54,655 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:45:56,994 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:56,994 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:56,994 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:45:56,994 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:45:58,227 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:58,227 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:45:58,227 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 20:45:58,227 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 20:46:25,653 basehttp "GET /reviews/ HTTP/1.1" 200 11081
+INFO 2023-10-12 20:46:25,653 basehttp "GET /reviews/ HTTP/1.1" 200 11081
+INFO 2023-10-12 20:46:27,078 basehttp "GET /create_review/ HTTP/1.1" 200 697
+INFO 2023-10-12 20:46:27,078 basehttp "GET /create_review/ HTTP/1.1" 200 697
+ERROR 2023-10-12 20:46:27,219 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:46:27,219 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:46:27,220 basehttp "GET /favicon.ico HTTP/1.1" 500 67225
+ERROR 2023-10-12 20:46:27,220 basehttp "GET /favicon.ico HTTP/1.1" 500 67225
+INFO 2023-10-12 20:46:49,433 basehttp "POST /create_review/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:46:49,433 basehttp "POST /create_review/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:46:49,514 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 20:46:49,514 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+ERROR 2023-10-12 20:47:06,039 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 123, in report
+    plt.xlabel('Сумма продаж')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 4138, in xlabel
+    return gca().set_xlabel(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 2528, in gca
+    return gcf().gca()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1658, in gca
+    return ax if ax is not None else self.add_subplot()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 784, in add_subplot
+    return self._add_axes_internal(ax, key)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 791, in _add_axes_internal
+    self.sca(ax)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1644, in sca
+    self._axobservers.process("_axes_change_event", self)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 303, in process
+    self.exception_handler(exc)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 87, in _exception_printer
+    raise exc
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 298, in process
+    func(*args, **kwargs)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 3232, in <lambda>
+    self._axobservers.connect("_axes_change_event", lambda arg: func(arg))
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 2670, in notify_axes_change
+    self.toolbar.update()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 3204, in update
+    self.set_history_buttons()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backends\_backend_tk.py", line 897, in set_history_buttons
+    self._buttons['Back']['state'] = state_map[can_back]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1686, in __setitem__
+    self.configure({key: value})
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+ERROR 2023-10-12 20:47:06,039 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 123, in report
+    plt.xlabel('Сумма продаж')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 4138, in xlabel
+    return gca().set_xlabel(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 2528, in gca
+    return gcf().gca()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1658, in gca
+    return ax if ax is not None else self.add_subplot()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 784, in add_subplot
+    return self._add_axes_internal(ax, key)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 791, in _add_axes_internal
+    self.sca(ax)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1644, in sca
+    self._axobservers.process("_axes_change_event", self)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 303, in process
+    self.exception_handler(exc)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 87, in _exception_printer
+    raise exc
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 298, in process
+    func(*args, **kwargs)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 3232, in <lambda>
+    self._axobservers.connect("_axes_change_event", lambda arg: func(arg))
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 2670, in notify_axes_change
+    self.toolbar.update()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 3204, in update
+    self.set_history_buttons()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backends\_backend_tk.py", line 897, in set_history_buttons
+    self._buttons['Back']['state'] = state_map[can_back]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1686, in __setitem__
+    self.configure({key: value})
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+ERROR 2023-10-12 20:47:06,055 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 500 151521
+ERROR 2023-10-12 20:47:06,055 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 500 151521
+ERROR 2023-10-12 20:47:06,499 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:06,499 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:06,499 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 20:47:06,499 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+INFO 2023-10-12 20:47:10,591 basehttp "GET /admin/ HTTP/1.1" 200 13876
+INFO 2023-10-12 20:47:10,591 basehttp "GET /admin/ HTTP/1.1" 200 13876
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,757 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,779 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,779 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,779 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,781 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,781 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,779 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,791 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,791 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,807 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,808 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,807 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,808 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,808 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2023-10-12 20:47:10,808 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+ERROR 2023-10-12 20:47:13,059 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:13,059 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:13,067 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+ERROR 2023-10-12 20:47:13,067 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+INFO 2023-10-12 20:47:25,038 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15518
+INFO 2023-10-12 20:47:25,038 basehttp "GET /admin/auth/user/ HTTP/1.1" 200 15518
+INFO 2023-10-12 20:47:25,113 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-12 20:47:25,113 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-10-12 20:47:25,339 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-12 20:47:25,339 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-10-12 20:47:25,357 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-12 20:47:25,357 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-10-12 20:47:25,364 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-12 20:47:25,364 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-10-12 20:47:25,364 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-12 20:47:25,364 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-10-12 20:47:25,368 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-12 20:47:25,369 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-12 20:47:25,369 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-10-12 20:47:25,368 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-10-12 20:47:25,380 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-12 20:47:25,380 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-10-12 20:47:25,389 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-12 20:47:25,389 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-10-12 20:47:25,413 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-12 20:47:25,413 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-10-12 20:47:25,429 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-12 20:47:25,429 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-10-12 20:47:25,440 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-12 20:47:25,440 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-10-12 20:47:25,444 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-12 20:47:25,444 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-10-12 20:47:25,456 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-10-12 20:47:25,456 basehttp "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-10-12 20:47:25,467 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-12 20:47:25,468 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-10-12 20:47:25,467 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-10-12 20:47:25,468 basehttp "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+ERROR 2023-10-12 20:47:25,652 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:25,652 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 20:47:25,652 basehttp "GET /favicon.ico HTTP/1.1" 500 67227
+ERROR 2023-10-12 20:47:25,652 basehttp "GET /favicon.ico HTTP/1.1" 500 67227
+INFO 2023-10-12 20:52:00,741 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:52:00,741 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 20:52:07,945 basehttp "GET / HTTP/1.1" 200 12982
+INFO 2023-10-12 20:52:07,945 basehttp "GET / HTTP/1.1" 200 12982
+INFO 2023-10-12 20:52:11,426 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 20:52:11,426 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 20:52:11,474 basehttp "GET /media/images/sterwa.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,474 basehttp "GET /media/images/sterwa.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,479 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,479 basehttp "GET /media/images/audi_a8.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,491 basehttp "GET /media/images/camry_uiXwen2.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,491 basehttp "GET /media/images/camry_uiXwen2.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,493 basehttp "GET /media/images/civic_Y8xMwXu.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,493 basehttp "GET /media/images/civic_Y8xMwXu.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,495 basehttp "GET /media/images/mustang_nGz9XiG.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,495 basehttp "GET /media/images/mustang_nGz9XiG.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,495 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,495 basehttp "GET /media/images/TRX.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,498 basehttp "GET /media/images/townstar_Dbvp5Ce.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,499 basehttp "GET /media/images/optima_PL2PaXF.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,499 basehttp "GET /media/images/optima_PL2PaXF.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,498 basehttp "GET /media/images/townstar_Dbvp5Ce.png HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,500 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,500 basehttp "GET /media/images/bmw_e39.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,504 basehttp "GET /media/images/cobalt.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:11,504 basehttp "GET /media/images/cobalt.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 20:52:13,708 basehttp "GET /cars/1 HTTP/1.1" 200 12217
+INFO 2023-10-12 20:52:13,708 basehttp "GET /cars/1 HTTP/1.1" 200 12217
+INFO 2023-10-12 20:52:13,983 basehttp "GET /media/sport_car.wav HTTP/1.1" 200 3625224
+INFO 2023-10-12 20:52:13,983 basehttp "GET /media/sport_car.wav HTTP/1.1" 200 3625224
+INFO 2023-10-12 20:52:23,786 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:52:23,786 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:52:23,861 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:52:23,861 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:52:38,736 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:52:38,736 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:52:38,784 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:52:38,784 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:52:43,955 basehttp "GET /order/create/ HTTP/1.1" 200 11025
+INFO 2023-10-12 20:52:43,955 basehttp "GET /order/create/ HTTP/1.1" 200 11025
+WARNING 2023-10-12 20:52:44,092 log Not Found: /order/media/images/logo.ico
+WARNING 2023-10-12 20:52:44,092 log Not Found: /order/media/images/logo.ico
+WARNING 2023-10-12 20:52:44,092 basehttp "GET /order/media/images/logo.ico HTTP/1.1" 404 5982
+WARNING 2023-10-12 20:52:44,092 basehttp "GET /order/media/images/logo.ico HTTP/1.1" 404 5982
+INFO 2023-10-12 20:53:28,846 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:53:28,846 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:53:28,904 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:53:28,904 basehttp "GET /cart/ HTTP/1.1" 200 12025
+INFO 2023-10-12 20:53:33,236 basehttp "GET /order/create/ HTTP/1.1" 200 11025
+INFO 2023-10-12 20:53:33,236 basehttp "GET /order/create/ HTTP/1.1" 200 11025
+INFO 2023-10-12 20:53:35,821 basehttp "GET /cars HTTP/1.1" 200 13821
+INFO 2023-10-12 20:53:35,821 basehttp "GET /cars HTTP/1.1" 200 13821
+INFO 2023-10-12 20:53:37,418 basehttp "GET /cars/1 HTTP/1.1" 200 12316
+INFO 2023-10-12 20:53:37,418 basehttp "GET /cars/1 HTTP/1.1" 200 12316
+INFO 2023-10-12 20:53:45,608 basehttp "GET /cars/1 HTTP/1.1" 200 12316
+INFO 2023-10-12 20:53:45,608 basehttp "GET /cars/1 HTTP/1.1" 200 12316
+INFO 2023-10-12 20:53:47,038 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:53:47,038 basehttp "POST /cart/add/1/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:53:47,097 basehttp "GET /cart/ HTTP/1.1" 200 12026
+INFO 2023-10-12 20:53:47,097 basehttp "GET /cart/ HTTP/1.1" 200 12026
+INFO 2023-10-12 20:55:10,302 basehttp "GET /promotional_code/ HTTP/1.1" 200 10925
+INFO 2023-10-12 20:55:10,302 basehttp "GET /promotional_code/ HTTP/1.1" 200 10925
+INFO 2023-10-12 20:55:26,141 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:55:26,141 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 20:55:26,221 basehttp "GET /cart/ HTTP/1.1" 200 12353
+INFO 2023-10-12 20:55:26,221 basehttp "GET /cart/ HTTP/1.1" 200 12353
+INFO 2023-10-12 20:55:30,846 basehttp "GET /order/create/ HTTP/1.1" 200 11173
+INFO 2023-10-12 20:55:30,846 basehttp "GET /order/create/ HTTP/1.1" 200 11173
+INFO 2023-10-12 20:55:33,930 basehttp "POST /order/create/ HTTP/1.1" 200 10551
+INFO 2023-10-12 20:55:33,930 basehttp "POST /order/create/ HTTP/1.1" 200 10551
+INFO 2023-10-12 20:55:46,835 basehttp "GET /FAQ/ HTTP/1.1" 200 14487
+INFO 2023-10-12 20:55:46,835 basehttp "GET /FAQ/ HTTP/1.1" 200 14487
+INFO 2023-10-12 20:58:29,510 basehttp "GET /vacancies/ HTTP/1.1" 200 11373
+INFO 2023-10-12 20:58:29,510 basehttp "GET /vacancies/ HTTP/1.1" 200 11373
+INFO 2023-10-12 21:08:27,351 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:08:27,351 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:08:28,030 basehttp "GET /media/images/maks.jpg HTTP/1.1" 200 4060
+INFO 2023-10-12 21:08:28,030 basehttp "GET /media/images/maks.jpg HTTP/1.1" 200 4060
+INFO 2023-10-12 21:08:28,140 basehttp "GET /media/images/sasha.jpg HTTP/1.1" 200 39530
+INFO 2023-10-12 21:08:28,140 basehttp "GET /media/images/sasha.jpg HTTP/1.1" 200 39530
+INFO 2023-10-12 21:08:28,241 basehttp "GET /media/images/Artem.jpg HTTP/1.1" 200 31554
+INFO 2023-10-12 21:08:28,241 basehttp "GET /media/images/Artem.jpg HTTP/1.1" 200 31554
+INFO 2023-10-12 21:08:28,253 basehttp "GET /media/images/andrew.jpg HTTP/1.1" 200 93582
+INFO 2023-10-12 21:08:28,253 basehttp "GET /media/images/andrew.jpg HTTP/1.1" 200 93582
+INFO 2023-10-12 21:08:28,954 basehttp "GET /media/images/arsen.jpg HTTP/1.1" 200 5682
+INFO 2023-10-12 21:08:28,954 basehttp "GET /media/images/arsen.jpg HTTP/1.1" 200 5682
+INFO 2023-10-12 21:08:30,266 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:08:30,266 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:08:31,260 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.png HTTP/1.1" 200 73570
+INFO 2023-10-12 21:08:31,260 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.png HTTP/1.1" 200 73570
+ERROR 2023-10-12 21:08:38,825 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 21:08:38,825 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 21:08:38,831 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+ERROR 2023-10-12 21:08:38,831 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+INFO 2023-10-12 21:10:48,247 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:10:48,247 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:10:49,109 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:10:49,109 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:10:54,131 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 21:10:54,131 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 21:10:58,296 basehttp - Broken pipe from ('127.0.0.1', 52121)
+INFO 2023-10-12 21:10:58,296 basehttp - Broken pipe from ('127.0.0.1', 52121)
+INFO 2023-10-12 21:10:58,849 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:10:58,849 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:10:59,331 basehttp - Broken pipe from ('127.0.0.1', 52120)
+INFO 2023-10-12 21:10:59,331 basehttp - Broken pipe from ('127.0.0.1', 52120)
+INFO 2023-10-12 21:11:01,774 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:11:01,774 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 21:11:02,603 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 21:11:02,603 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 21:11:04,217 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:11:04,217 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:11:10,195 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:11:10,195 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 21:11:12,057 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 21:11:12,057 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 21:11:15,715 basehttp "GET /news/ HTTP/1.1" 200 21389
+INFO 2023-10-12 21:11:15,715 basehttp "GET /news/ HTTP/1.1" 200 21389
+INFO 2023-10-12 21:11:15,805 basehttp "GET /media/images/news1.png HTTP/1.1" 200 494084
+INFO 2023-10-12 21:11:15,805 basehttp "GET /media/images/news1.png HTTP/1.1" 200 494084
+INFO 2023-10-12 21:11:16,970 basehttp "GET /media/images/Lada63_dwom3rF.png HTTP/1.1" 200 277550
+INFO 2023-10-12 21:11:16,970 basehttp "GET /media/images/Lada63_dwom3rF.png HTTP/1.1" 200 277550
+INFO 2023-10-12 21:11:16,998 basehttp "GET /media/images/%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%B2_%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D0%B5.png HTTP/1.1" 200 200242
+INFO 2023-10-12 21:11:16,998 basehttp "GET /media/images/%D0%90%D0%B2%D1%82%D0%BE%D1%80%D1%8B%D0%BD%D0%BE%D0%BA_%D0%B2_%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D0%B5.png HTTP/1.1" 200 200242
+INFO 2023-10-12 21:11:17,121 basehttp "GET /media/images/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%A0%D0%A4.png HTTP/1.1" 200 421564
+INFO 2023-10-12 21:11:17,121 basehttp "GET /media/images/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D1%8B_%D0%B2_%D0%A0%D0%A4.png HTTP/1.1" 200 421564
+INFO 2023-10-12 21:11:17,377 basehttp "GET /media/images/%D0%A8%D0%B8%D0%BD%D1%8B_%D0%B8_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE.png HTTP/1.1" 200 308870
+INFO 2023-10-12 21:11:17,377 basehttp "GET /media/images/%D0%A8%D0%B8%D0%BD%D1%8B_%D0%B8_%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE.png HTTP/1.1" 200 308870
+INFO 2023-10-12 21:11:22,305 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 21:11:22,305 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 21:11:25,071 basehttp "GET /cars/4 HTTP/1.1" 200 12683
+INFO 2023-10-12 21:11:25,071 basehttp "GET /cars/4 HTTP/1.1" 200 12683
+INFO 2023-10-12 21:11:26,450 basehttp "POST /cart/add/4/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:26,450 basehttp "POST /cart/add/4/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:26,529 basehttp "GET /cart/ HTTP/1.1" 200 12338
+INFO 2023-10-12 21:11:26,529 basehttp "GET /cart/ HTTP/1.1" 200 12338
+INFO 2023-10-12 21:11:29,583 basehttp "GET /cart/remove/4/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:29,583 basehttp "GET /cart/remove/4/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:29,699 basehttp "GET /cart/ HTTP/1.1" 200 11741
+INFO 2023-10-12 21:11:29,699 basehttp "GET /cart/ HTTP/1.1" 200 11741
+INFO 2023-10-12 21:11:39,673 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:39,673 basehttp "POST /cart/apply/ HTTP/1.1" 302 0
+INFO 2023-10-12 21:11:39,770 basehttp "GET /cart/ HTTP/1.1" 200 11424
+INFO 2023-10-12 21:11:39,770 basehttp "GET /cart/ HTTP/1.1" 200 11424
+INFO 2023-10-12 21:11:46,325 basehttp "GET / HTTP/1.1" 200 12989
+INFO 2023-10-12 21:11:46,325 basehttp "GET / HTTP/1.1" 200 12989
+INFO 2023-10-12 22:07:52,641 basehttp "GET /vacancies/ HTTP/1.1" 200 11373
+INFO 2023-10-12 22:07:52,641 basehttp "GET /vacancies/ HTTP/1.1" 200 11373
+INFO 2023-10-12 22:07:55,664 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 22:07:55,664 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 22:07:57,485 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 22:07:57,485 basehttp "GET /contacts/ HTTP/1.1" 200 13998
+INFO 2023-10-12 22:07:59,728 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 22:07:59,728 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 22:08:23,246 basehttp "GET /privacy_policy/ HTTP/1.1" 200 24530
+INFO 2023-10-12 22:08:23,246 basehttp "GET /privacy_policy/ HTTP/1.1" 200 24530
+INFO 2023-10-12 22:10:44,543 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 22:10:44,543 basehttp "GET /reviews/ HTTP/1.1" 200 11255
+INFO 2023-10-12 22:10:45,461 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 22:10:45,461 basehttp "GET /about/ HTTP/1.1" 200 18429
+INFO 2023-10-12 22:12:03,450 basehttp "GET / HTTP/1.1" 200 13015
+INFO 2023-10-12 22:12:03,450 basehttp "GET / HTTP/1.1" 200 13015
+INFO 2023-10-12 22:12:03,987 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 22:12:03,987 basehttp "GET /cars HTTP/1.1" 200 13722
+INFO 2023-10-12 22:12:09,624 basehttp "GET / HTTP/1.1" 200 12987
+INFO 2023-10-12 22:12:09,624 basehttp "GET / HTTP/1.1" 200 12987
+INFO 2023-10-12 22:12:36,120 basehttp "GET /stats/report/ HTTP/1.1" 200 63924
+INFO 2023-10-12 22:12:36,120 basehttp "GET /stats/report/ HTTP/1.1" 200 63924
+ERROR 2023-10-12 22:12:36,320 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:36,320 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:36,323 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:12:36,323 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 22:12:39,019 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60095
+INFO 2023-10-12 22:12:39,019 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 60095
+ERROR 2023-10-12 22:12:39,191 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:39,191 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:39,193 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 22:12:39,193 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+INFO 2023-10-12 22:12:42,098 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 55535
+INFO 2023-10-12 22:12:42,098 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 55535
+ERROR 2023-10-12 22:12:42,283 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:42,283 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:42,285 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:12:42,285 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+INFO 2023-10-12 22:12:47,226 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 62296
+INFO 2023-10-12 22:12:47,226 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 62296
+ERROR 2023-10-12 22:12:47,422 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:47,422 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:47,424 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:12:47,424 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:12:59,702 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:59,702 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:12:59,704 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:12:59,704 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:13:01,178 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:01,178 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:01,182 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 22:13:01,182 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 22:13:01,783 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:01,783 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:01,786 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:13:01,786 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 22:13:45,419 basehttp "GET /admin/ HTTP/1.1" 200 13876
+INFO 2023-10-12 22:13:45,419 basehttp "GET /admin/ HTTP/1.1" 200 13876
+ERROR 2023-10-12 22:13:45,666 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:45,666 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:13:45,668 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+ERROR 2023-10-12 22:13:45,668 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+INFO 2023-10-12 22:16:58,332 basehttp "GET / HTTP/1.1" 200 12965
+INFO 2023-10-12 22:16:58,332 basehttp "GET / HTTP/1.1" 200 12965
+INFO 2023-10-12 22:19:26,988 basehttp "GET / HTTP/1.1" 200 12942
+INFO 2023-10-12 22:19:26,988 basehttp "GET / HTTP/1.1" 200 12942
+INFO 2023-10-12 22:19:27,148 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 200 230270
+INFO 2023-10-12 22:19:27,148 basehttp "GET /media/images/%D0%BB%D0%BE%D0%B3%D0%BE.ico HTTP/1.1" 200 230270
+INFO 2023-10-12 22:22:58,797 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:22:58,797 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:01,120 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:23:01,120 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:23:02,568 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:23:02,568 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:23:04,256 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:23:04,256 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:23:05,603 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:05,603 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:07,552 basehttp "GET / HTTP/1.1" 200 12995
+INFO 2023-10-12 22:23:07,552 basehttp "GET / HTTP/1.1" 200 12995
+INFO 2023-10-12 22:23:30,237 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:30,237 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:35,295 basehttp "GET /vacancies/ HTTP/1.1" 200 11377
+INFO 2023-10-12 22:23:35,295 basehttp "GET /vacancies/ HTTP/1.1" 200 11377
+INFO 2023-10-12 22:23:36,585 basehttp "GET /promotional_code/ HTTP/1.1" 200 10829
+INFO 2023-10-12 22:23:36,585 basehttp "GET /promotional_code/ HTTP/1.1" 200 10829
+INFO 2023-10-12 22:23:38,400 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:23:38,400 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:23:39,905 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:23:39,905 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:23:40,970 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:40,970 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:23:48,991 basehttp "GET /privacy_policy/ HTTP/1.1" 200 24534
+INFO 2023-10-12 22:23:48,991 basehttp "GET /privacy_policy/ HTTP/1.1" 200 24534
+INFO 2023-10-12 22:23:57,060 basehttp "GET / HTTP/1.1" 200 12969
+INFO 2023-10-12 22:23:57,060 basehttp "GET / HTTP/1.1" 200 12969
+INFO 2023-10-12 22:28:53,306 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:28:53,306 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:29:02,678 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:29:02,678 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:29:11,955 basehttp "GET / HTTP/1.1" 200 12955
+INFO 2023-10-12 22:29:11,955 basehttp "GET / HTTP/1.1" 200 12955
+INFO 2023-10-12 22:29:42,394 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:29:42,394 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:29:44,315 basehttp "GET / HTTP/1.1" 200 12992
+INFO 2023-10-12 22:29:44,315 basehttp "GET / HTTP/1.1" 200 12992
+INFO 2023-10-12 22:29:46,475 basehttp "GET / HTTP/1.1" 200 12986
+INFO 2023-10-12 22:29:46,475 basehttp "GET / HTTP/1.1" 200 12986
+INFO 2023-10-12 22:29:46,680 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:29:46,680 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:29:48,768 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:29:48,768 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:29:49,946 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:29:49,946 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:29:53,741 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:29:53,741 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:29:57,325 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:29:57,325 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:29:58,834 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:29:58,834 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:30:03,012 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:30:03,012 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:30:06,684 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:30:06,684 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:30:16,614 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:30:16,614 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:30:17,654 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:30:17,654 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:30:22,410 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:30:22,410 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:30:32,417 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:30:32,417 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13747
+INFO 2023-10-12 22:30:39,542 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:30:39,542 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13748
+INFO 2023-10-12 22:30:40,995 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:30:40,995 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:30:43,790 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12334
+INFO 2023-10-12 22:30:43,790 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12334
+INFO 2023-10-12 22:30:51,250 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:30:51,250 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:30:54,680 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:30:54,680 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:30:57,632 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:30:57,632 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:30:59,641 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:30:59,641 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:31:00,454 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:31:00,454 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:31:03,622 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:31:03,622 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:31:07,985 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:31:07,985 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:31:10,878 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:31:10,878 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13746
+INFO 2023-10-12 22:31:17,156 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:31:17,156 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12587
+INFO 2023-10-12 22:31:30,994 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:31:30,994 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:31:41,825 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:31:41,825 basehttp "GET /contacts/ HTTP/1.1" 200 14002
+INFO 2023-10-12 22:31:43,615 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:31:43,615 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:31:44,931 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:31:44,931 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:31:46,177 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:31:46,177 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:31:47,810 basehttp "GET / HTTP/1.1" 200 13003
+INFO 2023-10-12 22:31:47,810 basehttp "GET / HTTP/1.1" 200 13003
+INFO 2023-10-12 22:31:49,377 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:31:49,377 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:35:44,100 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12048
+INFO 2023-10-12 22:35:44,100 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12048
+INFO 2023-10-12 22:35:49,415 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:35:49,415 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12041
+INFO 2023-10-12 22:35:53,940 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 11904
+INFO 2023-10-12 22:35:53,940 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 11904
+INFO 2023-10-12 22:35:57,172 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12343
+INFO 2023-10-12 22:35:57,172 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12343
+INFO 2023-10-12 22:36:04,991 basehttp "GET /cars/14 HTTP/1.1" 200 12410
+INFO 2023-10-12 22:36:04,991 basehttp "GET /cars/14 HTTP/1.1" 200 12410
+INFO 2023-10-12 22:36:08,479 basehttp "GET /cars/2 HTTP/1.1" 200 12407
+INFO 2023-10-12 22:36:08,479 basehttp "GET /cars/2 HTTP/1.1" 200 12407
+INFO 2023-10-12 22:38:25,783 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:38:25,783 basehttp "GET /cars HTTP/1.1" 200 13726
+INFO 2023-10-12 22:38:28,742 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:38:28,742 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:38:35,096 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:38:35,096 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:38:37,534 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:38:37,534 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:38:42,470 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:38:42,470 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:38:45,655 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 11904
+INFO 2023-10-12 22:38:45,655 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 11904
+INFO 2023-10-12 22:39:03,330 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:39:03,330 basehttp "GET /cars?carcass_type= HTTP/1.1" 200 13740
+INFO 2023-10-12 22:39:06,540 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:39:06,540 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:39:10,180 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12341
+INFO 2023-10-12 22:39:10,180 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12341
+INFO 2023-10-12 22:40:01,695 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12341
+INFO 2023-10-12 22:40:01,695 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12341
+INFO 2023-10-12 22:40:06,861 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:40:06,861 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:40:09,414 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:40:09,414 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:40:12,944 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12057
+INFO 2023-10-12 22:40:12,944 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12057
+INFO 2023-10-12 22:40:15,585 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:40:15,585 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 11904
+INFO 2023-10-12 22:40:17,661 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:40:17,661 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:40:22,165 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:40:22,165 basehttp "GET /cars?carcass_type=Jeep HTTP/1.1" 200 12027
+INFO 2023-10-12 22:44:20,182 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:44:20,182 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:44:20,383 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 200 7135
+INFO 2023-10-12 22:44:20,383 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 200 7135
+INFO 2023-10-12 22:44:24,970 basehttp "GET /cars/14 HTTP/1.1" 200 12164
+INFO 2023-10-12 22:44:24,970 basehttp "GET /cars/14 HTTP/1.1" 200 12164
+INFO 2023-10-12 22:44:34,481 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:44:34,481 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:44:36,656 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:44:36,656 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:44:45,990 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:44:45,990 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:44:46,051 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:44:46,051 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:44:51,793 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 12033
+INFO 2023-10-12 22:44:51,793 basehttp "GET /cars?carcass_type=Universal HTTP/1.1" 200 12033
+INFO 2023-10-12 22:44:54,097 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:44:54,097 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:44:59,339 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:44:59,339 basehttp "GET /cars?carcass_type=Liftback HTTP/1.1" 200 12193
+INFO 2023-10-12 22:45:03,459 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:45:03,459 basehttp "GET /cars?carcass_type=Crossower HTTP/1.1" 200 12049
+INFO 2023-10-12 22:45:07,120 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12195
+INFO 2023-10-12 22:45:07,120 basehttp "GET /cars?carcass_type=Hatchback HTTP/1.1" 200 12195
+INFO 2023-10-12 22:45:09,623 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12057
+INFO 2023-10-12 22:45:09,623 basehttp "GET /cars?carcass_type=Minivan HTTP/1.1" 200 12057
+INFO 2023-10-12 22:45:11,943 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:11,943 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:12,013 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:45:12,013 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:45:13,090 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:45:13,090 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:45:13,959 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:13,959 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:14,628 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:14,628 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:20,943 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:45:20,943 basehttp "GET /cars?carcass_type=Sedan HTTP/1.1" 200 12590
+INFO 2023-10-12 22:45:23,837 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:23,837 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:26,117 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:26,117 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:29,338 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:29,338 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:30,197 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:30,197 basehttp "GET /cars?sort_price=ascending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:31,743 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:31,743 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:32,458 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:32,458 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:33,216 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:33,216 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:33,614 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:33,614 basehttp "GET /cars?sort_price=descending HTTP/1.1" 200 13731
+INFO 2023-10-12 22:45:34,984 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:45:34,984 basehttp "GET /cars?sort_year=ascending HTTP/1.1" 200 13729
+INFO 2023-10-12 22:45:35,847 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:35,847 basehttp "GET /cars?sort_year=descending HTTP/1.1" 200 13730
+INFO 2023-10-12 22:45:38,325 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:38,325 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:38,398 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:45:38,398 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:45:46,831 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:45:46,831 basehttp "GET /reviews/ HTTP/1.1" 200 11259
+INFO 2023-10-12 22:45:53,987 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:45:53,987 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:45:55,683 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:55,683 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:45:59,003 basehttp "GET / HTTP/1.1" 200 12957
+INFO 2023-10-12 22:45:59,003 basehttp "GET / HTTP/1.1" 200 12957
+INFO 2023-10-12 22:46:01,239 basehttp "GET /news/ HTTP/1.1" 200 21393
+INFO 2023-10-12 22:46:01,239 basehttp "GET /news/ HTTP/1.1" 200 21393
+INFO 2023-10-12 22:47:25,273 basehttp "GET /news/ HTTP/1.1" 200 21393
+INFO 2023-10-12 22:47:25,273 basehttp "GET /news/ HTTP/1.1" 200 21393
+INFO 2023-10-12 22:47:40,800 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:47:40,800 basehttp "GET /cars HTTP/1.1" 200 13709
+INFO 2023-10-12 22:47:40,884 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+INFO 2023-10-12 22:47:40,884 basehttp "GET /media/images/rs6.jpg HTTP/1.1" 304 0
+ERROR 2023-10-12 22:47:47,940 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 123, in report
+    plt.xlabel('Сумма продаж')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 4138, in xlabel
+    return gca().set_xlabel(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 2528, in gca
+    return gcf().gca()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1658, in gca
+    return ax if ax is not None else self.add_subplot()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 784, in add_subplot
+    return self._add_axes_internal(ax, key)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 791, in _add_axes_internal
+    self.sca(ax)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1644, in sca
+    self._axobservers.process("_axes_change_event", self)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 303, in process
+    self.exception_handler(exc)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 87, in _exception_printer
+    raise exc
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 298, in process
+    func(*args, **kwargs)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 3232, in <lambda>
+    self._axobservers.connect("_axes_change_event", lambda arg: func(arg))
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 2670, in notify_axes_change
+    self.toolbar.update()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 3204, in update
+    self.set_history_buttons()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backends\_backend_tk.py", line 897, in set_history_buttons
+    self._buttons['Back']['state'] = state_map[can_back]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1686, in __setitem__
+    self.configure({key: value})
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+ERROR 2023-10-12 22:47:47,940 log Internal Server Error: /stats/report/
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py", line 123, in report
+    plt.xlabel('Сумма продаж')
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 4138, in xlabel
+    return gca().set_xlabel(
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\pyplot.py", line 2528, in gca
+    return gcf().gca()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1658, in gca
+    return ax if ax is not None else self.add_subplot()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 784, in add_subplot
+    return self._add_axes_internal(ax, key)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 791, in _add_axes_internal
+    self.sca(ax)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 1644, in sca
+    self._axobservers.process("_axes_change_event", self)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 303, in process
+    self.exception_handler(exc)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 87, in _exception_printer
+    raise exc
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\cbook.py", line 298, in process
+    func(*args, **kwargs)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\figure.py", line 3232, in <lambda>
+    self._axobservers.connect("_axes_change_event", lambda arg: func(arg))
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 2670, in notify_axes_change
+    self.toolbar.update()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backend_bases.py", line 3204, in update
+    self.set_history_buttons()
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\matplotlib\backends\_backend_tk.py", line 897, in set_history_buttons
+    self._buttons['Back']['state'] = state_map[can_back]
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1686, in __setitem__
+    self.configure({key: value})
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1675, in configure
+    return self._configure('configure', cnf, kw)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\tkinter\__init__.py", line 1665, in _configure
+    self.tk.call(_flatten((self._w, cmd)) + self._options(cnf))
+RuntimeError: main thread is not in main loop
+ERROR 2023-10-12 22:47:47,953 basehttp "GET /stats/report/ HTTP/1.1" 500 149056
+ERROR 2023-10-12 22:47:47,953 basehttp "GET /stats/report/ HTTP/1.1" 500 149056
+ERROR 2023-10-12 22:47:48,359 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:47:48,359 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:47:48,361 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:47:48,361 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 22:49:34,390 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 22:49:34,390 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 22:49:36,688 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 22:49:36,688 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 22:49:42,531 basehttp "GET / HTTP/1.1" 200 12979
+INFO 2023-10-12 22:49:42,531 basehttp "GET / HTTP/1.1" 200 12979
+INFO 2023-10-12 22:49:48,039 basehttp "GET /stats/report/ HTTP/1.1" 200 8176
+INFO 2023-10-12 22:49:48,039 basehttp "GET /stats/report/ HTTP/1.1" 200 8176
+ERROR 2023-10-12 22:49:48,377 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:48,377 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:48,383 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:49:48,383 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 22:49:50,910 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 12010
+INFO 2023-10-12 22:49:50,910 basehttp "GET /stats/report/?month=1 HTTP/1.1" 200 12010
+ERROR 2023-10-12 22:49:51,094 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:51,094 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:51,097 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 22:49:51,097 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+INFO 2023-10-12 22:49:57,410 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 12226
+INFO 2023-10-12 22:49:57,410 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 12226
+ERROR 2023-10-12 22:49:57,601 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:57,601 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:49:57,604 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:49:57,604 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:50:53,976 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:50:53,976 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:50:53,979 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+ERROR 2023-10-12 22:50:53,979 basehttp "GET /favicon.ico HTTP/1.1" 500 67232
+INFO 2023-10-12 22:52:11,615 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 22:52:11,615 autoreload H:\Мой диск\5 сем\WEB\LAB_04\AutoShow\stats\views.py changed, reloading.
+INFO 2023-10-12 22:52:13,832 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 22:52:13,832 autoreload Watching for file changes with StatReloader
+INFO 2023-10-12 22:52:19,470 basehttp "GET / HTTP/1.1" 200 12982
+INFO 2023-10-12 22:52:19,470 basehttp "GET / HTTP/1.1" 200 12982
+INFO 2023-10-12 22:52:29,659 basehttp "GET /stats/report/ HTTP/1.1" 200 8176
+INFO 2023-10-12 22:52:29,659 basehttp "GET /stats/report/ HTTP/1.1" 200 8176
+ERROR 2023-10-12 22:52:29,975 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:29,975 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:29,977 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:52:29,977 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+INFO 2023-10-12 22:52:33,299 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 12226
+INFO 2023-10-12 22:52:33,299 basehttp "GET /stats/report/?year=2010 HTTP/1.1" 200 12226
+ERROR 2023-10-12 22:52:33,725 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:33,725 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:33,738 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:52:33,738 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+INFO 2023-10-12 22:52:40,632 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 12277
+INFO 2023-10-12 22:52:40,632 basehttp "GET /stats/report/?year=2023 HTTP/1.1" 200 12277
+ERROR 2023-10-12 22:52:41,177 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:41,177 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:41,189 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:52:41,189 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:52:49,641 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:49,641 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:49,650 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:52:49,650 basehttp "GET /favicon.ico HTTP/1.1" 500 67234
+ERROR 2023-10-12 22:52:50,437 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:50,437 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:52:50,442 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:52:50,442 basehttp "GET /favicon.ico HTTP/1.1" 500 67224
+ERROR 2023-10-12 22:54:37,686 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:54:37,686 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 22:54:37,693 basehttp "GET /favicon.ico HTTP/1.1" 500 67211
+ERROR 2023-10-12 22:54:37,693 basehttp "GET /favicon.ico HTTP/1.1" 500 67211
+INFO 2023-10-12 22:55:50,730 basehttp "GET /about/ HTTP/1.1" 200 18433
+INFO 2023-10-12 22:55:50,730 basehttp "GET /about/ HTTP/1.1" 200 18433
+ERROR 2023-10-12 23:00:21,973 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 23:00:21,973 log Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Артем\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: CarsList() got an unexpected keyword argument 'car_carcass'
+ERROR 2023-10-12 23:00:21,976 basehttp "GET /favicon.ico HTTP/1.1" 500 67217
+ERROR 2023-10-12 23:00:21,976 basehttp "GET /favicon.ico HTTP/1.1" 500 67217

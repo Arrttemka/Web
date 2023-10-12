@@ -119,14 +119,14 @@ def report(request):
         
     df = pd.DataFrame(data)
 
-    plt.hist(df['sale_amount'], bins=10, edgecolor='k')
-    plt.xlabel('Сумма продаж')
-    plt.ylabel('Количество заказов')
-    plt.title('Распределение сумм продаж')
+    #plt.hist(df['sale_amount'], bins=10, edgecolor='k')
+    #plt.xlabel('Сумма продаж')
+    #plt.ylabel('Количество заказов')
+    #plt.title('Распределение сумм продаж')
 
     buffer3 = BytesIO()
-    plt.savefig(buffer3, format='png')
-    plt.close()
+    #plt.savefig(buffer3, format='png')
+    #plt.close()
 
     # Конвертируем изображение в строку base64
     image_base64_hist = base64.b64encode(buffer3.getvalue()).decode('utf-8')
@@ -147,26 +147,26 @@ def report(request):
         sales_counts.pop(mode_sales)
         mode_sales = max(sales_counts, key=sales_counts.get)
    
-    plt.figure(figsize=(5, 5))
+    #plt.figure(figsize=(5, 5))
     
-    plt.plot(salesD, prices)  
-    plt.xlabel('Объем продаж')
-    plt.ylabel('Цена')
-    plt.title('График зависимости Объема продаж относительно Цен')
+    #plt.plot(salesD, prices)
+    #plt.xlabel('Объем продаж')
+    #plt.ylabel('Цена')
+    #plt.title('График зависимости Объема продаж относительно Цен')
 
     # Преобразование графика в изображение
     buff = BytesIO()
-    plt.savefig(buff, format='png')
+    #plt.savefig(buff, format='png')
     buff.seek(0)
     image_data = base64.b64encode(buff.read()).decode('utf-8')
 
-    plt.figure(figsize=(5, 5))
+    #plt.figure(figsize=(5, 5))
     if not salesD.__contains__(None):
         plt.pie(salesD, labels=brands, autopct='%1.1f%%', startangle=140)
         plt.title('Процент продаж по брендам')
 
     buffer = BytesIO()
-    plt.savefig(buffer, format='png')
+    #plt.savefig(buffer, format='png')
     buffer.seek(0)
     image_base64 = base64.b64encode(buffer.read()).decode()
 
