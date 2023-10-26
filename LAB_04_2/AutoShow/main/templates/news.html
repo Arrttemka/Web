@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{%block css %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'main/newss.css' %}">
+{%endblock%}
+{% block title %}
+
+<title>News Page</title>
+
+{% endblock %}
+
+{% block content %}
+<section>
+  {% for new in news%}
+  <article>
+    <h2>{{new.title}}</h2>
+    <h4 class="short-description">{{new.essence}}</h4>
+    <img src="{{new.photo.url}}">
+    <details>
+      <summary>
+       больше
+      </summary>
+      {{new.description}}
+    </details>
+  </article>
+  {%endfor%}
+</section>
+<div style="margin-bottom: 30px;"></div>
+{%endblock%}

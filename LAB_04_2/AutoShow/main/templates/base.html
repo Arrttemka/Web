@@ -1,0 +1,284 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Artem Talay">
+        <meta name="description"
+            content="Автосалон TalayAutoShow.by предлагает широкий выбор новых и подержанных автомобилей. Мы также предоставляем профессиональное обслуживание и консультации клиентам.">
+        <meta name="keywords"
+            content="автосалон, автомобили, продажа авто, подержанные автомобили, обслуживание авто">
+
+        <link rel="icon" href="../media/images/лого.ico" type="image/x-icon">
+         <link rel="stylesheet" type="text/css" href="{% static 'main/base_pagee.css' %}">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Pixelify+Sans&family=Young+Serif&display=swap" rel="stylesheet">
+        {%block css %}
+     
+       
+        {%endblock%}
+        {% block title %}{%endblock%}
+    </head>
+    <body>
+        <div
+            style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="flex-grow: 1;">
+                <header style="text-align: center;">
+                    <h1 id="company_name">Автосалон TalayAutoShow</h1>
+
+                </header>
+            </div>
+
+            <div style="float: right; margin-right: 10px;" class="cart">
+                {%if user.is_authenticated%}
+                {% with total_items=cart|length %}
+                {% if cart|length > 0 %}
+                Ваша корзина:
+                <a href="{% url 'cart:cart_detail' %}">
+                    {{ total_items }} item{{ total_items|pluralize }},
+                    ${{ cart.get_total_price_after_discount }}
+                </a>
+                {% else %}
+                Ваша корзина пуста.
+                {% endif %}
+                {% endwith %}
+                {%endif%}
+                {% if user.is_authenticated %}
+                Привет, {{ user.username }}!
+                <a href="{% url 'main:logout' %}">Выйти</a>
+                {% else %}
+                <a href="{% url 'main:login' %}">Войти</a>
+                <a href="{% url 'main:register' %}">Зарегистрироваться</a>
+                {% endif %}
+
+                <div style="margin-top: 10px;">Тайм зона пользователя: <span
+                        id="userTimeZone"></span></div>
+                <div>Текущая дата и время: <span id="currentDateTime"></span></div>
+                <div><span id="utcOffset"></span></div>
+                
+                <script>
+                        document.getElementById("userTimeZone").textContent = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                
+                        const currentDateTime = new Date().toLocaleString("ru-RU");
+                        document.getElementById("currentDateTime").textContent = currentDateTime;
+                
+                        flatpickr("#calendar", {
+                            dateFormat: "d/m/Y H:i", 
+                            defaultDate: currentDateTime 
+                        });
+
+                        const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                        const userTimeZoneOffset = new Date().getTimezoneOffset() / 60;
+                        const utcOffset = userTimeZoneOffset > 0 ? `UTC-${userTimeZoneOffset}` : `UTC+${Math.abs(userTimeZoneOffset)}`;
+                        document.getElementById("utcOffset").textContent = `В вашей тайм зоне: ${userTimeZone} (${utcOffset})`;
+
+                    </script>
+            </div>
+        </div>
+
+        <nav class="menu" id="up">
+            <ul style="padding-left: 0; margin-left: 0;">
+                <li style="display: inline;"><a href="{% url 'main:index' %}">Главная</a></li>&nbsp;
+                <li style="display: inline;"><a href="{% url 'main:cars' %}">Все Машины</a></li>&nbsp;
+                <li style="display: inline;"><a href="{%url 'main:about'%}">О компании</a></li>&nbsp;
+                <li style="display: inline;"><a href="{%url 'main:contacts'%}">Контакты</a></li>&nbsp;
+                <li style="display: inline;"><a href="{% url 'main:reviews'%}">Отзывы</a></li>&nbsp;
+            </ul>
+        </nav>
+    
+        <main style="display: flex;" class="main-content">
+            <div style="width: 80%;" style="flex-grow: 1;">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+            <aside class="right_info"style="width: 20%; padding-left: 50px;">
+
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="{% url 'main:news' %}">Новости</a></li>
+                    <li class="menu-item"><a href="{% url 'main:vacancies'%}">Вакансии</a></li>
+                    <li class="menu-item">
+                        {% if user.is_authenticated %}
+                        <a href="{% url 'main:promotional_code' %}">Промокоды и купоны</a>
+                        {% else %}
+                        <a href="{% url 'main:login' %}?next={% url 'main:promotional_code' %}">Промокоды и купоны</a>
+                        {% endif %}
+                    </li>
+                </ul>
+                
+                <p>Добро пожаловать в <abbr title="Автосалон TalayAutoShow">Автосалон
+                        MAS</abbr>! Мы - ваш путь к инновационным автомобилям и
+                    качественному обслуживанию. Присоединяйтесь к нам сегодня!</p>
+
+                <p>Наша цитата:</p>
+                <q lang="en">Individuality on the road starts here.</q>
+                <q lang="ru">Индивидуальность на дороге начинается здесь.</q>
+                <p>
+                    Дорогие гости, в нашем салоне,<br>
+                    Мы здесь, чтобы вас порадовать!<br>
+                    Авто мечты, роскошь и страсть,<br>
+                    С нами выбор всегда на вес золота.
+                </p>
+               
+                <table border="1">
+                    <caption>Таблица наиболее популярных машин:</caption>
+                    <tr>
+                        <th id="popularity">Popularity</th>
+                        <th id="name">Car</th>
+                        <th id="color">Color</th>
+                        <th id="count">Count</th>
+
+                    </tr>
+                    <tr>
+                        <th id="first" headers="popularity">First:</th>
+                        <td headers="name first">BMW E39</td>
+                        <td headers="color first">Silver</td>
+                        <td headers="count first">100</td>
+
+                    </tr>
+                    <tr>
+                        <th id="second" headers="popularity">Second:</th>
+                        <td headers="name second">AUDI A6</td>
+                        <td headers="color second">Gray</td>
+                        <td headers="count second">40</td>
+
+                    </tr>
+                    <tr>
+                        <th id="third" headers="popularity">Third:</th>
+                        <td headers="name third">Renault, Sandero Stepway I</td>
+                        <td headers="color third">Yellow</td>
+                        <td headers="count third">60</td>
+
+                    </tr>
+                    <tr>
+                        <th id="fourth" headers="popularity">Fourth:</th>
+                        <td headers="name fourth">Ford, Mustang</td>
+                        <td headers="color fourth">Red</td>
+                        <td headers="count fourth">70</td>
+
+                    </tr>
+                    <tr>
+                        <th id="fifth" headers="popularity">Fifth:</th>
+                        <td headers="name fifth">Toyota, Camry</td>
+                        <td headers="color fifth">Black</td>
+                        <td headers="count fifth">30</td>
+
+                    </tr>
+                    <tr>
+                        <th id="total" headers="popularity">Total Count:</th>
+                        <td colspan="2" headers="name color total"></td>
+                        <td colspan="2" headers="count total">300</td>
+
+                    </tr>
+                </table>
+
+                <h2>Товары с наибольшим спросом:</h2>
+                <ul>
+                    {% for car in most_popular_cars %}
+                    <li>{{ car.car__brand }}, {{ car.car__model }} ({{car.order_count }} заказов)</li>
+                    {% endfor %}
+                </ul>
+
+                <h2>Товары с наименьшим спросом:</h2>
+                <ul>
+                    {% for car in least_popular_cars %}
+                    <li>{{ car.car__brand }}, {{ car.car__model }} ({{car.order_count }} заказов)</li>
+                    {% endfor %}
+                </ul>
+
+                <p>Ниже приведен пример кода на Python:</p>
+                <p>
+                    <code>
+                        def greet(name): <br>&nbsp;
+                        return "Hello, " + name + "!"<br> <br>
+
+                        person = "Alice"<br>
+                        greeting = greet(person) <br>
+                        print(greeting) <br>
+                    </code>
+                </p>
+                <p>The function in this example is <var> greet</var></p>
+                <p>The output from the code is: <samp> Hello, Alice!</samp></p>
+                <p>When asked for the name, I typed: <kbd> Alice</kbd></p>
+
+                <article itemscope itemtype="http://schema.org/Article">
+                    <h1 itemprop="name">Немного о Microdata</h1>
+                    <meta itemprop="inLanguage" content="ru" /> 
+                    <section itemprop="articleBody">
+                        Скажи рекурсии «нет»!
+                    </section>
+                    <section itemprop="author" itemscope itmetype="http://schema.org/Person">
+                        <span itemprop="additionalName">VlAleVas</span>
+                    </section>
+                </article>
+
+                {%if request.user.is_staff%}
+                <a href="{% url 'stats:report'%}">Статистика</a>
+                {%endif%}
+
+                <h2>Форма для стилей с псевдоклассами</h2>
+
+            </head>
+
+            <body>
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <p>
+                        <label for="name">Имя: </label>
+                        <input type="text" id="name" name="name" disabled>
+                    </p>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email" maxlength="10">
+                    </div>
+                    <div>
+                        <label for="password">Пароль: </label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <p>
+                        <label for="comment">Комментарий: </label>
+                        <textarea id="comment" name="comment" required></textarea>
+                    </p>
+                    <div>
+                        <input type="checkbox" id="checkbox" name="checkbox" checked>
+                        <label for="checkbox">Флажок: </label>
+                    </div>
+                    <div>
+                       
+                        <input type="radio" id="radio1" name="radio" value="1" checked>
+                        <label for="radio1">Переключатель 1: </label>
+                    </div>
+                    <div>
+                        <input type="radio" id="radio2" name="radio" value="2">
+                        <label for="radio2">Переключатель 2: </label>
+                    </div>
+                    <input type="submit" value="Сохранить">
+                </form>
+            </aside>
+        </main>
+
+        <footer style="padding-top: 200px;">
+            <div
+                style="display: flex; justify-content: space-between; align-items: center;">
+                <p>Since <time datetime="2023-09-02">September 2nd 2023</time>
+                </p>
+                <p>&copy; 2023 Автосалон TalayAutoShow</p>
+                <nav class="menu">
+                    <ul
+                        style="padding-left: 0; margin-left: 0; list-style: none;">
+                        <li style="display: inline; margin-right: 10px;"><a 
+                                href="{%url 'main:FAQ'%}">Словарь терминов и
+                                понятий</a></li>
+                        <li style="display: inline;"><a
+                                href="{% url 'main:privacy_policy'%}">Политика
+                                конфиденциальности</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </footer>
+
+    </body>
+</html>
