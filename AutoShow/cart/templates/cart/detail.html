@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{%load static%}
+{% block title %}
+<title>Shopping cart</title>
+
+{% endblock %}
+{% block content %}
+
+    <h1>Your shopping cart</h1>
+    <table class="cart">
+        <thead>
+        <tr>
+            <th></th>
+            <th>Car</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+            <th>Unit price</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for item in cart %}
+            {% with car=item.car %}
+                <tr>
+                    <td>
+                        <a href="{{ car.get_absolute_url }}">
+                            <img width="300" height="180" src="{{ car.photo.url }}">
+                        </a>
+                    </td>
+                    <td>{{ car.model }}</td>
+                    <td>{{ item.quantity }}</td>
+                    <td><a href="{% url 'cart:cart_remove' car.id %}">Remove</a></td>
+                    <td class="num">{{ item.cost }}</td>
+                    <td class="num">{{ item.total_price }}</td>
+                </tr>
+            {% endwith %}
+        {% endfor %}
+        {% if cart.coupon %}
+    <tr class="subtotal">
+        <td>Subtotal</td>
+        <td colspan="4"></td>
+        <td class="num">${{ cart.get_total_price }}</td>
+    </tr>
+    <tr>
+        <td>
+            "{{ cart.coupon.value }}" coupon
+            ({{ cart.coupon.discount }}% off)
+        </td>
+        <td colspan="4"></td>
+        <td class="num neg">
+            - ${{ cart.get_discount|floatformat:"2" }}
+        </td>
+    </tr>
+{% endif %}
+<tr class="total">
+    <td>Total</td>
+    <td colspan="4"></td>
+    <td class="total_price">
+        ${{ cart.get_total_price_after_discount|floatformat:"2" }}
+    </td>
+</tr>
+        </tbody>
+    </table>
+
+    <p class="text-right">
+        <h4><a href="{% url 'main:cars' %}" class="button light">Continue shopping</a>
+            <a href="{% url 'order:order_create' %}">Checkout</a></h4>
+    </p>
+
+    <input type="text" id="promo">
+    <button onclick="applyPromo()">Применить скидку</button>
+    <script src="{% static 'cart/js/promo.js'%}"></script>
+
+
+{% endblock %}
