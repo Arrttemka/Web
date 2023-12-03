@@ -20,6 +20,21 @@
 <button onclick="checkAge()">Проверить возраст</button>
 <p style="font-size: 36px;" id="result"></p>
 
+<div>
+    <h2>Theme Customization</h2>
+    <form>
+        <label for="fontSize">Font Size: </label>
+        <input type="number" id="fontSize" min="10" max="50" value="16" onchange="changeFontSize()">
+        <br>
+        <br>
+        <label for="textColor">Text Color: </label>
+        <input type="color" id="textColor" value="#000000" onchange="changeTextColor()">
+        <br>
+        <br>
+        <label for="bgColor">Background Color: </label>
+        <input type="color" id="bgColor" value="#ffffff" onchange="changeBackgroundColor()">
+    </form>
+</div>
 
 <div class="banner" id="banner1">
     <a href="https://www.bmw.fr/fr/accueil.html" target="_blank"><img width="100%" height="250px" src="../media/images/bmw_banner.png" alt="Баннер BMW"></a>
@@ -101,14 +116,18 @@
 <p>Самое распространенное женское имя: <span id="commonFemaleName"></span></p>
 
 <div class="scroll">
-  <img id = "right_car" src="https://www.transparentpng.com/thumb/car-png/car-amazing-image-download-9.png" alt="Car Amazing Image Download @transparentpng.com">
+  <img id = "right_car" alt = "right_car" src="https://www.transparentpng.com/thumb/car-wheel/OvZAob-car-wheels-clipart-transparent.png" alt="car wheels clipart transparent @transparentpng.com">
   <img id="left_car" src="https://www.transparentpng.com/thumb/car-png/transparent-background-car-25.png" alt="transparent background car @transparentpng.com">
    <img id="bottom_car" src="https://www.transparentpng.com/thumb/cars/7F9Ean-red-mustang-car-rear-view-download.png" alt="red mustang car rear view download @transparentpng.com">
-  <img id = "center_car"src="https://www.transparentpng.com/thumb/car-png/photos-car-1.png" alt="photos car @transparentpng.com">
+  <img id = "center_car"src="https://www.transparentpng.com/thumb/hot-wheels/9BDBB2-hot-wheels-red-and-blue-car-picture.png" alt="hot wheels red and blue car picture @transparentpng.com">
 </div>
+
+
 <script src="{% static 'main/js/employee.js'%}"></script>
 <script src="{% static 'main/js/table.js'%}"></script>
 <script src="{% static 'main/js/age.js'%}"></script>
 <script src="{% static 'main/js/banner.js'%}"></script>
 <script src="{% static 'main/js/animation_scroll.js'%}"></script>
+<script src="{% static 'main/js/letters.js'%}"></script>
+
 {% endblock %}

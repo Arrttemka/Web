@@ -1,21 +1,18 @@
-const isBigLetters = JSON.parse(localStorage.getItem('isBigLetters'));
-const lettersToggle = document.getElementById('lettersToggle');
-
-if (isBigLetters) {
-    lettersToggle.checked = true;
-    document.body.classList.add('big-letters');
-} else {
-    lettersToggle.checked = false;
-    document.body.classList.remove('big-letters');
-
-}
-
-document.getElementById('lettersToggle').addEventListener('click', function() {
-    if (lettersToggle.checked) {
-        document.body.classList.add('big-letters');
-        localStorage.setItem('isBigLetters', true);
-    } else {
-        document.body.classList.remove('big-letters');
-        localStorage.setItem('isBigLetters', false);
-    }
-});
+// Функция для изменения размера шрифта
+function changeFontSize() {
+    const fontSize = document.getElementById('fontSize').value;
+    document.body.style.fontSize = fontSize + 'px';
+  }
+  
+  // Функция для изменения цвета текста
+  function changeTextColor() {
+    const textColor = document.getElementById('textColor').value;
+    document.body.style.color = textColor;
+  }
+  
+  // Функция для изменения цвета фона страницы
+  function changeBackgroundColor() {
+    const bgColor = document.getElementById('bgColor').value;
+    document.body.style.backgroundColor = bgColor;
+  }
+  

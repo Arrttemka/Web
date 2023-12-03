@@ -28,5 +28,48 @@
         <h3>{{ p.value }} - {{ p.discount }}%</h3>
     {% endfor %}
 </div>
+<div>
+    <h2>Functional Inheritance (Prototype-based)</h2>
+    <div>
+        <h3>Car Info</h3>
+        <p>Name: <span id="carName"></span></p>
+        <p>Price: <span id="carPrice"></span></p>
+        <p>Horsepower: <span id="carHorsepower"></span></p>
+        <p>Car Info: <span id="carInfo"></span></p>
+    </div>
+    <div>
+        <h3>Electric_car Info</h3>
+        <p>Name: <span id="electric_carName"></span></p>
+        <p>Price: <span id="electric_carPrice"></span></p>
+        <p>Horsepower: <span id="electric_carHorsepower"></span></p>
+        <p>Type: <span id="electric_carType"></span></p>
+        <p>Electric_car Info: <span id="electric_carInfo"></span></p>
+    </div>
+</div>
+
+<hr>
+
+<div>
+    <h2>Class and Extends</h2>
+    <div>
+        <h3>Car Info (Class)</h3>
+        <p>Name: <span id="carNameClass"></span></p>
+        <p>Price: <span id="carPriceClass"></span></p>
+        <p>Horsepower: <span id="carHorsepowerClass"></span></p>
+        <p>Car Info: <span id="carInfoClass"></span></p>
+    </div>
+    <div>
+        <h3>Electric_car Info (Class)</h3>
+        <p>Name: <span id="electric_carNameClass"></span></p>
+        <p>Price: <span id="electric_carPriceClass"></span></p>
+        <p>Horsepower: <span id="electric_carHorsepowerClass"></span></p>
+        <p>Type: <span id="electric_carTypeClass"></span></p>
+        <p>Electric_car Info: <span id="electric_carInfoClass"></span></p>
+    </div>
+</div>
+
+<script src="{% static 'main/js/oop_1.js'%}"></script>
+
+
 
 {%endblock%}
